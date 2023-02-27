@@ -1,2 +1,2 @@
-# tonny_batya
+# Tonny Batya
 My Portfolio showcasing my projects and my works
