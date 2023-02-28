@@ -341,13 +341,14 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
-                  <Link
-                    href="https://docs.google.com/document/d/1wsGF-2SKTmzAz6Puq3KEx00sfecsEY7uweFcO9R8FlA/edit?usp=sharing"
+                  <Link legacyBehavior href="#">
+                    <a
                     target="_blank"
                     rel= "noreferrer"
                     className="text-lg btn-brand btn-lg group"
                   >
                     RÈSUMÈ
+                    </a>
                   </Link>
                 </li>
               </ul>
@@ -523,13 +524,14 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
-                  <Link
-                    href  = "https://docs.google.com/document/d/1wsGF-2SKTmzAz6Puq3KEx00sfecsEY7uweFcO9R8FlA/edit?usp=sharing"
+                  <Link legacyBehavior href  = "#">
+                    <a
                     target="_blank"
                     rel="noreferrer"
                     className="btn-brand btn-md group"
                   >
                     RÈSUMÈ
+                    </a>
                   </Link>
                 </li>
                 <li className="z-50 inline-block list-none lg:hidden group">
