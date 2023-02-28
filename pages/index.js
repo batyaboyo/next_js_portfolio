@@ -228,7 +228,7 @@ export default function Home({ publications }) {
             name="description"
             content="The portfolio of blockchain developer and technical writer, Tonny Batya"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <Link rel="icon" href="/favicon.ico" />
         </Head>
 
         {/* Full-screen Menu */}
@@ -341,14 +341,14 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
-                  <link
+                  <Link
                     href="https://docs.google.com/document/d/1wsGF-2SKTmzAz6Puq3KEx00sfecsEY7uweFcO9R8FlA/edit?usp=sharing"
                     target="_blank"
                     rel= "noreferrer"
                     className="text-lg btn-brand btn-lg group"
                   >
                     RÈSUMÈ
-                  </link>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -523,14 +523,14 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
-                  <link
-                    href="https://docs.google.com/document/d/1wsGF-2SKTmzAz6Puq3KEx00sfecsEY7uweFcO9R8FlA/edit?usp=sharing"
+                  <Link
+                    href  = "https://docs.google.com/document/d/1wsGF-2SKTmzAz6Puq3KEx00sfecsEY7uweFcO9R8FlA/edit?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     className="btn-brand btn-md group"
                   >
                     RÈSUMÈ
-                  </link>
+                  </Link>
                 </li>
                 <li className="z-50 inline-block list-none lg:hidden group">
                   <button
@@ -650,14 +650,14 @@ export default function Home({ publications }) {
                     Alongside my design and development work, I run a BA Media
                     Production degree course and a corporate video production
                     company called{" "}
-                    <link
+                    <Link
                       href="http://www.wearespotlight.co.uk"
                       target="_blank"
                       className="underline-link"
                       rel="noreferrer"
                     >
                       Spotlight Media
-                    </link>
+                    </Link>
                     , so I like to keep busy!
                   </p>
                   <p className="text-lg">
@@ -1263,7 +1263,7 @@ export default function Home({ publications }) {
                 <p className="text-lg">
                   Email me at{" "}
                   <Link href="mailto:batztonnie@gmail.com">
-                    <link className="underline-link">batztonnie@gmail.com</link>
+                    <Link className="underline-link">batztonnie@gmail.com</Link>
                   </Link>{" "}
                   and let&apos;s get in touch!
                 </p>
