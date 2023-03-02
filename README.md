@@ -1,6 +1,6 @@
-# Portfolio 
+# Tonny Batya 
 ## Project description
-My portfolio, built with NextJS, React and TailwindCSS.
+My Portfolio showcasing my work, built with NextJS, React and TailwindCSS.
 
 
 ## Installation
@@ -23,6 +23,3 @@ npm run dev
 ## License
 [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 =======
-# tonny_batya
-My Portfolio showcasing my projects and my works
->>>>>>> 9ce2e0cc191cd214b242db5f132207444ff8428a
