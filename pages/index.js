@@ -11,7 +11,7 @@ import Css from "../components/icons/Css";
 import Javascript from "../components/icons/Javascript";
 import Tailwind from "../components/icons/Tailwind";
 import Bootstrap from "../components/icons/Bootstrap";
-import TypeScript from "../components/icons/TypeScript";
+import TypeScript from "../components/icons/Typescript";
 import ReactJs from "../components/icons/ReactJs";
 import NextJs from "../components/icons/NextJs";
 import NodeJs from "../components/icons/NodeJs";
