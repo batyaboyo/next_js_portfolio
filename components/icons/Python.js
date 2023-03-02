@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Firebase() {
+export default function Python() {
   return (
     <svg viewBox="0 0 128 128">
       <path

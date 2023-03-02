@@ -11,15 +11,12 @@ import Css from "../components/icons/Css";
 import Javascript from "../components/icons/Javascript";
 import Tailwind from "../components/icons/Tailwind";
 import Bootstrap from "../components/icons/Bootstrap";
-import Sass from "../components/icons/Sass";
+import TypeScript from "../components/icons/TypeScript";
 import ReactJs from "../components/icons/ReactJs";
 import NextJs from "../components/icons/NextJs";
 import NodeJs from "../components/icons/NodeJs";
-import Firebase from "../components/icons/Firebase";
-import Photoshop from "../components/icons/Photoshop";
-import Illustrator from "../components/icons/Illustrator";
-import AfterEffects from "../components/icons/AfterEffects";
-import AdobeXd from "../components/icons/AdobeXd";
+import Python from "../components/icons/Python";
+import Django from "../components/icons/Django";
 // Project Card
 import ProjectCard from "../components/ProjectCard";
 import GitHubProfile from "../components/icons/GitHubProfile";
@@ -33,7 +30,7 @@ import BlogItem from "../components/blog/BlogItem";
 
 // Dark Mode
 import { useTheme } from "next-themes";
-import Supabase from "../components/icons/Supabase";
+import Solidity from "../components/icons/Solidity";
 import MongoDb from "../components/icons/MongoDb";
 import Express from "../components/icons/Express";
 
@@ -382,7 +379,6 @@ export default function Home({ publications }) {
                   stroke-linejoin="round"
                 />
                 <path
-                  
                   d="M19 4L21 6L19 8"
                   stroke="#008080"
                   stroke-width="2"
@@ -390,7 +386,6 @@ export default function Home({ publications }) {
                   stroke-linejoin="round"
                 />
                 <path
-                  
                   d="M12 16V20"
                   stroke="#008080"
                   stroke-width="2"
@@ -581,11 +576,16 @@ export default function Home({ publications }) {
                     speed={30}
                     eraseSpeed={30}
                     eraseDelay={1500}
-                    text={[`Software Developer...`,`Blockchain Developer..`, `Technical Writer.`]}
+                    text={[
+                      `Software Developer...`,
+                      `Blockchain Developer..`,
+                      `Technical Writer.`,
+                    ]}
                   />
                 </h2>
                 <p className="w-4/5 text-xl md:w-full">
-                  Building Fullstack Software on the Blockchain And Writing About Tech.
+                  Building Fullstack Software on the Blockchain And Writing
+                  About Tech.
                 </p>
                 <button
                   className="mt-4 btn-brand btn-lg group"
@@ -802,10 +802,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Supabase */}
+              {/* Solidity */}
               <Icon
-                IconType={Supabase}
-                title="Supabase"
+                IconType={Solidity}
+                title="Solidity"
                 width={"w-16 sm:w-20"}
                 height={"h-16 sm:h-20"}
                 padding={"p-0"}
@@ -834,10 +834,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Sass */}
+              {/* TypeScript */}
               <Icon
-                IconType={Sass}
-                title="Sass"
+                IconType={TypeScript}
+                title="TypeScript"
                 width={"w-16 sm:w-20"}
                 height={"h-16 sm:h-20"}
                 padding={"p-0"}
@@ -866,10 +866,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Firebase */}
+              {/* Python */}
               <Icon
-                IconType={Firebase}
-                title="Firebase"
+                IconType={Python}
+                title="Python"
                 width={"w-16 sm:w-20"}
                 height={"h-16 sm:h-20"}
                 padding={"p-0"}
@@ -882,58 +882,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Photoshop */}
+              {/* Django */}
               <Icon
-                IconType={Photoshop}
-                title="Photoshop"
-                width={"w-16 sm:w-20"}
-                height={"h-16 sm:h-20"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Illustrator */}
-              <Icon
-                IconType={Illustrator}
-                title="Illustrator"
-                width={"w-16 sm:w-20"}
-                height={"h-16 sm:h-20"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* After Effects */}
-              <Icon
-                IconType={AfterEffects}
-                title="After Effects"
-                width={"w-16 sm:w-20"}
-                height={"h-16 sm:h-20"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Adobe XD */}
-              <Icon
-                IconType={AdobeXd}
-                title="Adobe XD"
+                IconType={Django}
+                title="Django"
                 width={"w-16 sm:w-20"}
                 height={"h-16 sm:h-20"}
                 padding={"p-0"}
@@ -1126,7 +1078,7 @@ export default function Home({ publications }) {
             <h2 className="text-4xl text-center">OTHER PROJECTS</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 mx-auto border-0"></hr>
             <p className="mb-16 text-lg text-center">
-              Check out some of the projects I&apos;ve build
+              Check out other projects I&apos;ve build
             </p>
 
             {/* Other Projects Container */}

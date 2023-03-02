@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sass = () => {
+const Typescript = () => {
   return (
     <svg viewBox="0 0 128 128">
       <path
@@ -13,4 +13,4 @@ const Sass = () => {
   );
 };
 
-export default Sass;
+export default Typescript;

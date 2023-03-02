@@ -1,6 +1,6 @@
 import React from "react";
 
-const Photoshop = () => {
+const Django = () => {
   return (
     <svg viewBox="0 0 128 128">
       <path
@@ -13,4 +13,4 @@ const Photoshop = () => {
   );
 };
 
-export default Photoshop;
+export default Django;

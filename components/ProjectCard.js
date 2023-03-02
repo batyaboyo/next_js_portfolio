@@ -9,28 +9,46 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="flex flex-col w-full rounded-md bg-white dark:bg-mid px-7 py-7 shadow-md shadow-light/10 dark:shadow-dark">
       <svg
-        id="b4200d7e-7896-4022-b85b-f69170875645"
-        data-name="Layer 1"
+        width="50px"
+        height="50px"
+        viewBox="0 0 24 24"
+        fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 97.96 97.96"
-        className="w-10 h-10 mb-4 fill-current text-brand"
       >
         <path
-          className="text-brand"
-          d="M26.47,49.89,9.92,66.44a4.39,4.39,0,1,1-6.21-6.21L17.16,46.79,3.71,33.34a4.39,4.39,0,0,1,6.21-6.21L26.47,43.68A4.4,4.4,0,0,1,26.47,49.89Z"
+          d="M9 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H18C19.1046 16 20 15.1046 20 14V12"
+          stroke="#008080"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
         />
         <path
-          className="text-brand"
-          d="M94.27,66.44a4.38,4.38,0,0,1-6.21,0L71.51,49.89a4.4,4.4,0,0,1,0-6.21L88.06,27.13a4.39,4.39,0,0,1,6.21,6.21L80.83,46.79,94.27,60.23A4.4,4.4,0,0,1,94.27,66.44Z"
+          d="M15 4L13 6L15 8"
+          stroke="#008080"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
         />
-        <rect
-          className="text-brand"
-          x="44.34"
-          y="10.21"
-          width="8.78"
-          height="77.54"
-          rx="4.39"
-          transform="translate(14.34 -10.94) rotate(15)"
+        <path
+          d="M19 4L21 6L19 8"
+          stroke="#008080"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12 16V20"
+          stroke="#008080"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M8 20H16"
+          stroke="#008080"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
         />
       </svg>
       <p className="inline-block px-0 pb-5 mb-4 text-xl font-bold border-b-4 flex-start border-brand dark:text-white text-dark">
