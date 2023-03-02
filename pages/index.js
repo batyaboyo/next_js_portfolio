@@ -39,39 +39,30 @@ import Express from "../components/icons/Express";
 
 const projects = [
   {
-    title: "Yodlr",
+    title: "MyCalc",
     overview:
       "Shoutout a Twitter user, and generate a profile card in under a minute. Simply find the user, select the style, edit the colors and download the card.",
     stack: ["Html", "Tailwind", "React", "Next"],
-    link: "http://yodlr.vercel.app",
-    repo: "https://github.com/devbxtzz/yodlr",
+    link: "http://vercel.app",
+    repo: "https://github.com/devbxtzz",
     isSiteLive: true,
   },
   {
-    title: "Rate My Film",
+    title: "MyCalc",
     overview:
-      "A single-page application that helps filmmakers learn more about who their film might be suitable for.",
-    stack: ["Html", "React", "Sass"],
-    link: "http://www.ratemyfilm.co.uk",
-    repo: "https://github.com/devbxtzz/rate-my-film",
+      "Shoutout a Twitter user, and generate a profile card in under a minute. Simply find the user, select the style, edit the colors and download the card.",
+    stack: ["Html", "Tailwind", "React", "Next"],
+    link: "http://vercel.app",
+    repo: "https://github.com/devbxtzz",
     isSiteLive: true,
   },
   {
-    title: "Spotlight Media",
+    title: "MyCalc",
     overview:
-      "The website for my corporate videography company. This features a contact form powered by NodeJs and SendGrid.",
-    stack: ["Html", "ReactJs", "Next", "Node"],
-    link: "http://www.wearespotlight.co.uk",
-    repo: "https://github.com/devbxtzz/spotlight-media",
-    isSiteLive: true,
-  },
-  {
-    title: "Quotr",
-    overview:
-      "A simple application built to help tradespeople automate the quotation process.",
-    stack: ["Html", "React", "Next"],
-    link: "https://quotr.vercel.app",
-    repo: null,
+      "Shoutout a Twitter user, and generate a profile card in under a minute. Simply find the user, select the style, edit the colors and download the card.",
+    stack: ["Html", "Tailwind", "React", "Next"],
+    link: "http://vercel.app",
+    repo: "https://github.com/devbxtzz",
     isSiteLive: true,
   },
 ];
@@ -341,13 +332,13 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
-                  <Link legacyBehavior href= "">
+                  <Link legacyBehavior href="">
                     <a
-                    target="_blank"
-                    rel= "noreferrer"
-                    className="text-lg btn-brand btn-lg group"
-                  >
-                    RÈSUMÈ
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-lg btn-brand btn-lg group"
+                    >
+                      RÈSUMÈ
                     </a>
                   </Link>
                 </li>
@@ -370,55 +361,48 @@ export default function Home({ publications }) {
             {/* Logo */}
             <div className="z-50 w-9 sm:w-12 h-9 sm:h-12 flex items-center">
               <svg
-                id="b613d120-e911-4f71-b7bc-d9b9e1bbdc6f"
-                data-name="Layer 1"
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 93.13 75.2"
               >
-                <rect
-                  className="fill-current text-brand"
-                  x="-3.43"
-                  y="39.29"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(-27.18 21.75) rotate(-45)"
+                <path
+                  d="M9 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H18C19.1046 16 20 15.1046 20 14V12"
+                  stroke="#008080"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
-                <rect
-                  className="fill-current text-brand"
-                  x="-3.43"
-                  y="22.74"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(22.89 -1.01) rotate(45)"
+                <path
+                  d="M15 4L13 6L15 8"
+                  stroke="#008080"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
-                <rect
-                  className="fill-current text-brand"
-                  x="64.37"
-                  y="22.74"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(156.55 -10.59) rotate(135)"
+                <path
+                  
+                  d="M19 4L21 6L19 8"
+                  stroke="#008080"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
-                <rect
-                  className="fill-current text-brand"
-                  x="64.37"
-                  y="39.29"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(106.48 131.47) rotate(-135)"
+                <path
+                  
+                  d="M12 16V20"
+                  stroke="#008080"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
-                <rect
-                  className="fill-current text-brand"
-                  x="41.93"
-                  y="-1.17"
-                  width="8.78"
-                  height="77.54"
-                  rx="4.39"
-                  transform="translate(11.31 -10.71) rotate(15)"
+                <path
+                  d="M8 20H16"
+                  stroke="#008080"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
               </svg>
             </div>
@@ -524,13 +508,13 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
-                  <Link legacyBehavior href  = "">
+                  <Link legacyBehavior href="">
                     <a
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-brand btn-md group"
-                  >
-                    RÈSUMÈ
+                      target="_blank"
+                      rel="noreferrer"
+                      className="btn-brand btn-md group"
+                    >
+                      RÈSUMÈ
                     </a>
                   </Link>
                 </li>
@@ -597,12 +581,11 @@ export default function Home({ publications }) {
                     speed={30}
                     eraseSpeed={30}
                     eraseDelay={1500}
-                    text={[`Blockchain Developer..`, `Technical Writer`]}
+                    text={[`Software Developer...`,`Blockchain Developer..`, `Technical Writer.`]}
                   />
                 </h2>
                 <p className="w-4/5 text-xl md:w-full">
-                  Building Fullstack Web3.0 Apps And Writing About The
-                  Blockchain.
+                  Building Fullstack Software on the Blockchain And Writing About Tech.
                 </p>
                 <button
                   className="mt-4 btn-brand btn-lg group"
