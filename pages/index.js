@@ -25,8 +25,8 @@ import LinkedInProfile from "../components/icons/LinkedInProfile";
 import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 // Blog Components
-//import BlogList from "../components/blog/BlogList";
-//import BlogItem from "../components/blog/BlogItem";
+import BlogList from "../components/blog/BlogList";
+import BlogItem from "../components/blog/BlogItem";
 
 // Dark Mode
 import { useTheme } from "next-themes";
@@ -1089,6 +1089,19 @@ export default function Home({ publications }) {
             </div>
           </section>
 
+          {/* Articles */}
+          <section
+            className="flex flex-col w-full px-0 md:px-20 lg:px-24 py-28 section"
+            id="blog"
+            ref={blogRef}
+          >
+            {/* Blog header */}
+            <h2 className="text-5xl">ARTICLES</h2>
+            <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
+
+            <BlogList publications={publications} />
+          </section>
+
           {/* Contact */}
           <section
             className="flex flex-col w-full px-0 md:px-20 lg:px-24 py-28 section"
@@ -1423,3 +1436,34 @@ export default function Home({ publications }) {
   );
 }
 
+/**
+ * Method used to fetch data from Hashnode.
+ * @param {Object} context
+ * @returns props
+ */
+export async function getServerSideProps(context) {
+  const res = await fetch("https://api.hashnode.com/", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "84fdc5c7-e317-4d08-b765-58f3d5227c6c",
+    },
+    body: JSON.stringify({
+      query:
+        'query {user(username: "devbxtzz") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+    }),
+  });
+  const publications = await res.json();
+
+  if (!publications) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: {
+      publications,
+    },
+  };
+}
