@@ -171,7 +171,7 @@ export default function Home({ publications }) {
     if (currentTheme === "dark") {
       return (
         <svg
-          className="w-6 h-6 transition-all duration-150 ease-in-out dark:flex dark:opacity-50 dark:group-hover:opacity-100 dark:text-white"
+          className = "w-6 h-6 transition-all duration-150 ease-in-out dark:flex dark:opacity-50 dark:group-hover:opacity-100 dark:text-white"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
