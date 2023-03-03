@@ -22,8 +22,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/_app.js", "pages/index.js"  ],
+, "pages/_app.js", "pages/index.tsx", 
+"src/components", "src/custom.d.ts"
+, "pages/index.js"],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }

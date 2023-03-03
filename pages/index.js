@@ -25,8 +25,8 @@ import LinkedInProfile from "../components/icons/LinkedInProfile";
 import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 // Blog Components
-import BlogList from "../components/blog/BlogList";
-import BlogItem from "../components/blog/BlogItem";
+//import BlogList from "../components/blog/BlogList";
+//import BlogItem from "../components/blog/BlogItem";
 
 // Dark Mode
 import { useTheme } from "next-themes";
@@ -171,7 +171,7 @@ export default function Home({ publications }) {
     if (currentTheme === "dark") {
       return (
         <svg
-          className = "w-6 h-6 transition-all duration-150 ease-in-out dark:flex dark:opacity-50 dark:group-hover:opacity-100 dark:text-white"
+          className="w-6 h-6 transition-all duration-150 ease-in-out dark:flex dark:opacity-50 dark:group-hover:opacity-100 dark:text-white"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -1089,19 +1089,6 @@ export default function Home({ publications }) {
             </div>
           </section>
 
-          {/* Articles */}
-          <section
-            className="flex flex-col w-full px-0 md:px-20 lg:px-24 py-28 section"
-            id="blog"
-            ref={blogRef}
-          >
-            {/* Blog header */}
-            <h2 className="text-5xl">ARTICLES</h2>
-            <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
-
-            <BlogList publications={publications} />
-          </section>
-
           {/* Contact */}
           <section
             className="flex flex-col w-full px-0 md:px-20 lg:px-24 py-28 section"
@@ -1436,34 +1423,3 @@ export default function Home({ publications }) {
   );
 }
 
-/**
- * Method used to fetch data from Hashnode.
- * @param {Object} context
- * @returns props
- */
-export async function getServerSideProps(context) {
-  const res = await fetch("https://api.hashnode.com/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: "efae9761-ab1e-4c2e-8655-91edea328b66",
-    },
-    body: JSON.stringify({
-      query:
-        'query {user(username: "devbxtzz") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
-    }),
-  });
-  const publications = await res.json();
-
-  if (!publications) {
-    return {
-      notFound: true,
-    };
-  }
-
-  return {
-    props: {
-      publications,
-    },
-  };
-}
