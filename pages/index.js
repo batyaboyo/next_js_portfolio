@@ -632,7 +632,7 @@ export default function Home({ publications }) {
                   </p>
 
                   <p className="text-lg">
-                    Take a look at my work below to see what I&apos;m working
+                    Take a look at some of my work below to see what I&apos;m working
                     on, and get in touch if you&apos;d like to work together!
                   </p>
                 </div>
