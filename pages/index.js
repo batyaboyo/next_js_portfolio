@@ -357,49 +357,13 @@ export default function Home({ publications }) {
           <div className="container relative flex items-center mx-auto">
             {/* Logo */}
             <div className="z-50 w-9 sm:w-12 h-9 sm:h-12 flex items-center">
-              <svg
-                width="800px"
-                height="800px"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H18C19.1046 16 20 15.1046 20 14V12"
-                  stroke="#008080"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M15 4L13 6L15 8"
-                  stroke="#008080"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M19 4L21 6L19 8"
-                  stroke="#008080"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M12 16V20"
-                  stroke="#008080"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M8 20H16"
-                  stroke="#008080"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+            <Image
+                    src="/logo.png"
+                    className="overflow-hidden rounded-md"
+                    width={40}
+                    height={40}
+                    alt={"Tonny Batya headshot"}
+                  />
             </div>
             {/* Text */}
             <div className="flex items-center ml-4">
