@@ -616,12 +616,21 @@ export default function Home({ publications }) {
                     Technical writer.
                   </p>
                   <p className="text-lg">
-                  I am a passionate Full Stack Developer with a keen interest in exploring emerging technologies like Blockchain and Artificial Intelligence. I am excited to leverage my skills and experience to contribute to innovative projects and make a difference.
+                    I am a passionate Full Stack Developer with a keen interest
+                    in exploring emerging technologies like Blockchain and
+                    Artificial Intelligence. I am excited to leverage my skills
+                    and experience to contribute to innovative projects and make
+                    a difference.
                   </p>
                   <p className="text-lg">
-                  As a proactive and self-motivated individual, I am always looking for new opportunities to learn and grow in my career. I am open to exploring various roles in Software development and believe that my technical skills, excellent communication, collaboration, and problem-solving abilities make me a valuable asset to any team.
+                    As a proactive and self-motivated individual, I am always
+                    looking for new opportunities to learn and grow in my
+                    career. I am open to exploring various roles in Software
+                    development and believe that my technical skills, excellent
+                    communication, collaboration, and problem-solving abilities
+                    make me a valuable asset to any team.
                   </p>
-                  
+
                   <p className="text-lg">
                     Take a look at my work below to see what I&apos;m working
                     on, and get in touch if you&apos;d like to work together!
