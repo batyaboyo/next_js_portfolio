@@ -357,13 +357,13 @@ export default function Home({ publications }) {
           <div className="container relative flex items-center mx-auto">
             {/* Logo */}
             <div className="z-50 w-9 sm:w-12 h-9 sm:h-12 flex items-center">
-            <Image
-                    src="/logo.png"
-                    className="overflow-hidden rounded-md"
-                    width={40}
-                    height={40}
-                    alt={"Tonny Batya headshot"}
-                  />
+              <Image
+                src="/logo.png"
+                className="overflow-hidden rounded-md"
+                width={40}
+                height={40}
+                alt={"Tonny Batya headshot"}
+              />
             </div>
             {/* Text */}
             <div className="flex items-center ml-4">
@@ -596,8 +596,9 @@ export default function Home({ publications }) {
                   </p>
 
                   <p className="text-lg">
-                    Take a look at some of my work below to see what I&apos;m working
-                    on, and get in touch if you&apos;d like to work together!
+                    Take a look at some of my work below to see what I&apos;m
+                    working on, and get in touch if you&apos;d like to work
+                    together!
                   </p>
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
