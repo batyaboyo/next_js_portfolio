@@ -612,39 +612,16 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I&apos;m Tonny and I&apos;m a Blockchain Developer,
-                    and technical writer.
+                    Hello! I&apos;m Tonny and I&apos;m a Software Developer, and
+                    Technical writer.
                   </p>
                   <p className="text-lg">
-                    After building my first website aged thirteen, I knew I
-                    wanted to work with computers and technology, and I&apos;ve
-                    never looked back.
+                  I am a passionate Full Stack Developer with a keen interest in exploring emerging technologies like Blockchain and Artificial Intelligence. I am excited to leverage my skills and experience to contribute to innovative projects and make a difference.
                   </p>
                   <p className="text-lg">
-                    After graduating University with a Media degree, I began
-                    freelancing as a designer, creating graphics, video content
-                    and websites for small businesses, using content management
-                    systems like Wordpress, Joomla and Squarespace.
+                  As a proactive and self-motivated individual, I am always looking for new opportunities to learn and grow in my career. I am open to exploring various roles in Software development and believe that my technical skills, excellent communication, collaboration, and problem-solving abilities make me a valuable asset to any team.
                   </p>
-                  <p className="text-lg">
-                    In recent years, I&apos;ve been focused on programming,
-                    building a solid frontend stack and creating exciting
-                    projects that solve real-world problems.
-                  </p>
-                  <p className="text-lg">
-                    Alongside my design and development work, I run a BA Media
-                    Production degree course and a corporate video production
-                    company called{" "}
-                    <Link
-                      href="http://www.wearespotlight.co.uk"
-                      target="_blank"
-                      className="underline-link"
-                      rel="noreferrer"
-                    >
-                      Spotlight Media
-                    </Link>
-                    , so I like to keep busy!
-                  </p>
+                  
                   <p className="text-lg">
                     Take a look at my work below to see what I&apos;m working
                     on, and get in touch if you&apos;d like to work together!

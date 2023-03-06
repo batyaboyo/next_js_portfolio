@@ -59,7 +59,7 @@ const FeaturedProjectCard = ({
           {repoLink !== null ? (
             <Button
               link={repoLink}
-              text={"Source"}
+              text={"Code"}
               square={false}
               icon={<GitHub square={false} />}
             />
