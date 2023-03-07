@@ -211,7 +211,7 @@ export default function Home({ publications }) {
         }`}
       >
         <Head>
-          <title>Tonny Batya | Blockchain Developer</title>
+          <title>Tonny Batya | Software Developer</title>
           <meta
             name="description"
             content="The portfolio of blockchain developer and technical writer, Tonny Batya"
