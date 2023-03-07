@@ -358,7 +358,7 @@ export default function Home({ publications }) {
             {/* Logo */}
             <div className="z-50 w-9 sm:w-12 h-9 sm:h-12 flex items-center">
               <Image
-                src="/logo1.png"
+                src="/logo2.png"
                 className="overflow-hidden rounded-md"
                 width={40}
                 height={40}
@@ -1084,7 +1084,7 @@ export default function Home({ publications }) {
             <hr className="w-full h-1 mb-16 dark:bg-white bg-dark border-0 opacity-10"></hr>
             <div className="w-8 mb-4">
               <Image
-                src="/logo1.png"
+                src="/logo2.png"
                 className="overflow-hidden rounded-md"
                 width={100}
                 height={100}
