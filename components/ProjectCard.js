@@ -9,48 +9,32 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="flex flex-col w-full rounded-md bg-white dark:bg-mid px-7 py-7 shadow-md shadow-light/10 dark:shadow-dark">
       <svg
-        width="50px"
-        height="50px"
-        viewBox="0 0 24 24"
-        fill="none"
+        id="abbe8588-8b21-44fd-a605-eb7de7f82941"
+        data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 93.13 75.2"
+        width ="40"
+        height="40"
       >
         <path
-          d="M9 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H18C19.1046 16 20 15.1046 20 14V12"
-          stroke="#008080"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
+          d="M24.05,38.51,7.5,55.06a4.39,4.39,0,1,1-6.21-6.21L14.74,35.41,1.29,22A4.39,4.39,0,0,1,7.5,15.75L24.05,32.3A4.4,4.4,0,0,1,24.05,38.51Z"
         />
         <path
-          d="M15 4L13 6L15 8"
-          stroke="#008080"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
+          d="M91.85,55.06a4.38,4.38,0,0,1-6.21,0L69.09,38.51a4.4,4.4,0,0,1,0-6.21L85.64,15.75A4.39,4.39,0,0,1,91.85,22L78.41,35.41,91.85,48.85A4.4,4.4,0,0,1,91.85,55.06Z"
         />
-        <path
-          d="M19 4L21 6L19 8"
-          stroke="#008080"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M12 16V20"
-          stroke="#008080"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-        <path
-          d="M8 20H16"
-          stroke="#008080"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+        <rect
+          className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
+          x="41.93"
+          y="-1.17"
+          width="8.78"
+          height="77.54"
+          rx="4.39"
+          transform="translate(11.31 -10.71) rotate(15)"
         />
       </svg>
+      
       <p className="inline-block px-0 pb-5 mb-4 text-xl font-bold border-b-4 flex-start border-brand dark:text-white text-dark">
         {title}
       </p>

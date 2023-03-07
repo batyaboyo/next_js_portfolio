@@ -367,7 +367,7 @@ export default function Home({ publications }) {
             </div>
             {/* Text */}
             <div className="flex items-center ml-4">
-              <p className="text-lg font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
+              <p className="text-xl font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
                 TONNY BATYA
               </p>
             </div>
@@ -1080,37 +1080,20 @@ export default function Home({ publications }) {
           </section>
 
           {/* Footer */}
-          <footer className="flex flex-col w-full px-0 py-16 md:px-20 lg:px-24 section">
+          <footer className="flex items-center flex-col w-full px-0 py-16 md:px-20 lg:px-24 section">
             <hr className="w-full h-1 mb-16 dark:bg-white bg-dark border-0 opacity-10"></hr>
             <div className="w-8 mb-4">
-              <svg
-                id="abbe8588-8b21-44fd-a605-eb7de7f82941"
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 93.13 75.2"
-              >
-                <path
-                  className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
-                  d="M24.05,38.51,7.5,55.06a4.39,4.39,0,1,1-6.21-6.21L14.74,35.41,1.29,22A4.39,4.39,0,0,1,7.5,15.75L24.05,32.3A4.4,4.4,0,0,1,24.05,38.51Z"
-                />
-                <path
-                  className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
-                  d="M91.85,55.06a4.38,4.38,0,0,1-6.21,0L69.09,38.51a4.4,4.4,0,0,1,0-6.21L85.64,15.75A4.39,4.39,0,0,1,91.85,22L78.41,35.41,91.85,48.85A4.4,4.4,0,0,1,91.85,55.06Z"
-                />
-                <rect
-                  className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
-                  x="41.93"
-                  y="-1.17"
-                  width="8.78"
-                  height="77.54"
-                  rx="4.39"
-                  transform="translate(11.31 -10.71) rotate(15)"
-                />
-              </svg>
+              <Image
+                src="/logo.png"
+                className="overflow-hidden rounded-md"
+                width={100}
+                height={100}
+                alt={"Tonny Batya"}
+              />
             </div>
 
-            <div className="flex flex-col items-start md:flex-row">
-              <p className="w-auto mb-4 md:mb-0">
+            <div className="flex flex-col items-center md:flex-row">
+              <p className="w-auto text-2xl mb-4 md:mb-0">
                 &copy; {new Date().getFullYear()} - Tonny Batya a.k.a Devbxtzz
               </p>
 
