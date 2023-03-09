@@ -174,7 +174,7 @@ export default function Home({ publications }) {
           className="w-6 h-6 transition-all duration-150 ease-in-out flex text-mid/50 group-hover:text-dark"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="#fff"
         >
           <path
             strokeLinecap="round"
@@ -190,7 +190,7 @@ export default function Home({ publications }) {
           className="w-6 h-6 transition-all duration-150 ease-in-out dark:flex dark:opacity-50 dark:group-hover:opacity-100 dark:text-white"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="#012"
         >
           <path
             strokeLinecap="round"
