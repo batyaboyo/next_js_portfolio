@@ -17,8 +17,6 @@ import NextJs from "../components/icons/NextJs";
 import NodeJs from "../components/icons/NodeJs";
 import Python from "../components/icons/Python";
 import Django from "../components/icons/Django";
-// Project Card
-import ProjectCard from "../components/ProjectCard";
 import GitHubProfile from "../components/icons/GitHubProfile";
 import TwitterProfile from "../components/icons/TwitterProfile";
 import LinkedInProfile from "../components/icons/LinkedInProfile";
@@ -33,36 +31,6 @@ import { useTheme } from "next-themes";
 import Solidity from "../components/icons/Solidity";
 import MongoDb from "../components/icons/MongoDb";
 import Express from "../components/icons/Express";
-
-const projects = [
-  {
-    title: "MyCalc",
-    overview:
-      "Shoutout a Twitter user, and generate a profile card in under a minute. Simply find the user, select the style, edit the colors and download the card.",
-    stack: ["Html", "Tailwind", "React", "Next"],
-    link: "http://vercel.app",
-    repo: "https://github.com/devbxtzz",
-    isSiteLive: true,
-  },
-  {
-    title: "MyCalc",
-    overview:
-      "Shoutout a Twitter user, and generate a profile card in under a minute. Simply find the user, select the style, edit the colors and download the card.",
-    stack: ["Html", "Tailwind", "React", "Next"],
-    link: "http://vercel.app",
-    repo: "https://github.com/devbxtzz",
-    isSiteLive: true,
-  },
-  {
-    title: "MyCalc",
-    overview:
-      "Shoutout a Twitter user, and generate a profile card in under a minute. Simply find the user, select the style, edit the colors and download the card.",
-    stack: ["Html", "Tailwind", "React", "Next"],
-    link: "http://vercel.app",
-    repo: "https://github.com/devbxtzz",
-    isSiteLive: true,
-  },
-];
 
 const getDimensions = (ele) => {
   const { height } = ele.getBoundingClientRect();
@@ -322,7 +290,7 @@ export default function Home({ publications }) {
                     }`}
                     onClick={() => {
                       setNavbarOpen(false);
-                      scrollTo(contactRef.current);
+                       devscrollTo(contactRef.current);
                     }}
                   >
                     CONTACT
@@ -1025,19 +993,6 @@ export default function Home({ publications }) {
               />
             </div>
 
-            {/* Other Projects header */}
-            <h2 className="text-4xl text-center">OTHER PROJECTS</h2>
-            <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 mx-auto border-0"></hr>
-            <p className="mb-16 text-lg text-center">
-              Check out other projects I&apos;ve build
-            </p>
-
-            {/* Other Projects Container */}
-            <div className="grid grid-flow-row grid-rows-2 gap-4 grid-col-1 lg:grid-cols-3">
-              {projects.map(function (project, i) {
-                return <ProjectCard project={project} key={i} />;
-              })}
-            </div>
           </section>
 
           {/* Articles */}
