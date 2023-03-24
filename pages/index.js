@@ -178,7 +178,7 @@ export default function Home({ publications }) {
         }`}
       >
         <Head>
-          <title>Tonny Batya | Software Developer</title>
+          <title>Tonny Batya | Software Engineer</title>
           <meta
             name="description"
             content="The portfolio of blockchain developer and technical writer, Tonny Batya"
@@ -334,7 +334,7 @@ export default function Home({ publications }) {
             </div>
             {/* Text */}
             <div className="flex items-center ml-4">
-              <p className="text-xl font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
+              <p href="#" className="text-xl font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
                 TONNY BATYA
               </p>
             </div>
@@ -508,9 +508,9 @@ export default function Home({ publications }) {
                     eraseSpeed={30}
                     eraseDelay={1500}
                     text={[
-                      `Software Developer...`,
+                      `Software Developer.`,
                       `Blockchain Developer..`,
-                      `Technical Writer.`,
+                      `Technical Writer...`,
                     ]}
                   />
                 </h2>
@@ -524,7 +524,7 @@ export default function Home({ publications }) {
                     scrollTo(myWorkRef.current);
                   }}
                 >
-                  SEE MY PROJECTS
+                  MY WORKS
                 </button>
               </div>
             </div>
@@ -832,7 +832,7 @@ export default function Home({ publications }) {
             <div className="flex flex-col w-full mb-12">
               {/* Project One */}
               <FeaturedProjectCard
-                title={"Reportr"}
+                title={"CoreSynths"}
                 status={"Just launched"}
                 description={`Write reports for your students in 60 seconds or less`}
                 float={`right-0`}
@@ -840,8 +840,8 @@ export default function Home({ publications }) {
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/reportr.png"}
-                liveLink={"https://reportr.io/"}
-                repoLink={"https://github.com/devbxtzz"}
+                liveLink={"https://coresynths.io/"}
+                repoLink={"https://github.com/devbxtzz/coresynths"}
                 stack={
                   <>
                     <Icon
@@ -912,7 +912,7 @@ export default function Home({ publications }) {
               />
               {/* Project Two */}
               <FeaturedProjectCard
-                title={"ColorHub"}
+                title={"EcstacySwap"}
                 status={"Currently working on"}
                 description={`Create a custom colour palette for your next project. Preview your palette on different layouts and then export the CSS, SCSS or Tailwind code.`}
                 float={`right-0`}
@@ -920,8 +920,8 @@ export default function Home({ publications }) {
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/colorhub.png"}
-                liveLink={"https://colorhub.app/"}
-                repoLink={"https://github.com/devbxtzz"}
+                liveLink={"https://ecstacyswap.io/"}
+                repoLink={"https://github.com/devbxtzz/ecstacyswap"}
                 stack={
                   <>
                     <Icon
