@@ -24,7 +24,6 @@ import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 // Blog Components
 import BlogList from "../components/blog/BlogList";
-import BlogItem from "../components/blog/BlogItem";
 
 // Dark Mode
 import { useTheme } from "next-themes";
