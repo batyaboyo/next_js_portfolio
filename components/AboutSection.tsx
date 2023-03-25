@@ -6,13 +6,16 @@ const skills = [
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
+  { skill: "Solidity" },
   { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Solidity" },
+  { skill: "Next.js" },
+  { skill: "Express.js" },
+  { skill: "Node.js" },
 ];
 
 const AboutSection = () => {
@@ -46,7 +49,7 @@ const AboutSection = () => {
             <p></p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <h1 className="text-2xl font-bold mb-6">MY SKILLS</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (

@@ -1,8 +1,8 @@
-"use client" // this is a client component
-import React from "react"
-import Image from "next/image"
-import { Link } from "react-scroll/modules"
-import { HiArrowDown } from "react-icons/hi"
+"use client"; // this is a client component
+import React from "react";
+import Image from "next/image";
+import { Link } from "react-scroll/modules";
+import { HiArrowDown } from "react-icons/hi";
 
 const HeroSection = () => {
   return (
@@ -18,13 +18,18 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Tonny Batya</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
+            TONNY BATYA
+          </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
+            I am a passionate{" "}
             <span className="font-semibold text-teal-600">
               Blockchain Developer{" "}
             </span>
-            
+            .
+            <br />
+            <br />I am alooking for new opportunities to learn and grow in my
+            career as a Blockchain Developer
           </p>
           <Link
             to="projects"
@@ -35,7 +40,7 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            My Works
+            MY WORKS
           </Link>
         </div>
       </div>
@@ -52,7 +57,7 @@ const HeroSection = () => {
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
