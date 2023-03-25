@@ -10,14 +10,14 @@ const projects = [
     description:
       "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
     image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/devbxtzz",
+    link: "https://devbxtzz.io/",
   },
   {
     name: "PlatoIO",
     description: "PlatoIO is a to do list app that built using the PERN stack.",
     image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
+    github: "https://github.com/devb",
     link: "https://platoio.com/register",
   },
   {
