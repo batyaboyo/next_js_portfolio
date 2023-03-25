@@ -13,7 +13,6 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Next.js" },
   { skill: "Express.js" },
   { skill: "Node.js" },
 ];
