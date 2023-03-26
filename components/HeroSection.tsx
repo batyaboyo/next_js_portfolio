@@ -26,7 +26,7 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
             TONNY BATYA
           </h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
+          <p className="text-lg mt-4 mb-6 md:text-3xl">
             <span className="flex flex-row items-center justify-center font-semibold text-teal-600">
               Blockchain Developer
             </span>
@@ -64,6 +64,8 @@ const HeroSection = () => {
               />
             </a>
           </div>
+          <br />
+          <br />
           <div className="flex flex-row items-center justify-center space-x-2 mb-1">
             <Link
               to="projects"
@@ -77,19 +79,21 @@ const HeroSection = () => {
               MY WORKS
             </Link>
           </div>
+          <br />
+          <br />
+          <div className="flex flex-row items-center text-center justify-center ">
+            <Link
+              to="about"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              <HiArrowDown size={35} className="animate-bounce" />
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className="flex flex-row items-center text-center justify-center ">
-        <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <HiArrowDown size={35} className="animate-bounce" />
-        </Link>
       </div>
     </section>
   );
