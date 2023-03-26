@@ -7,9 +7,7 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiOutlineLinkedin,
-} from "react-icons/ai"
-
-
+} from "react-icons/ai";
 
 const HeroSection = () => {
   return (
@@ -29,57 +27,56 @@ const HeroSection = () => {
             TONNY BATYA
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I am a passionate{" "}
-            <span className="font-semibold text-teal-600">
-              Blockchain Developer{" "}
+            <span className="flex flex-row items-center justify-center font-semibold text-teal-600">
+              Blockchain Developer
             </span>
-            .
-            <br />
-            <br />I am alooking for new opportunities to learn and grow in my
-            career as a Blockchain Developer
           </p>
-
           <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/devbxtzz" rel="noreferrer" target="_blank">
-            <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-          <a
-            href="https://twitter.com/devbxtzz"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
+            <a
+              href="https://github.com/devbxtzz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineGithub
+                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://twitter.com/devbxtzz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineTwitter
+                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                size={30}
+              />
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/tonny-batya/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
-        </div>
-
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            MY WORKS
-          </Link>
+            <a
+              href="https://www.linkedin.com/in/tonny-batya/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineLinkedin
+                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                size={30}
+              />
+            </a>
+          </div>
+          <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+            <Link
+              to="projects"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              MY WORKS
+            </Link>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
