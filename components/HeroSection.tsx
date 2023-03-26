@@ -3,6 +3,13 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
+import {
+  AiOutlineGithub,
+  AiOutlineTwitter,
+  AiOutlineLinkedin,
+} from "react-icons/ai"
+
+
 
 const HeroSection = () => {
   return (
@@ -31,6 +38,37 @@ const HeroSection = () => {
             <br />I am alooking for new opportunities to learn and grow in my
             career as a Blockchain Developer
           </p>
+
+          <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+          <a href="https://github.com/devbxtzz" rel="noreferrer" target="_blank">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://twitter.com/devbxtzz"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineTwitter
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/tonny-batya/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+        </div>
+
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
