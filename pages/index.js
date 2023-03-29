@@ -16,7 +16,6 @@ import ReactJs from "../components/icons/ReactJs";
 import NextJs from "../components/icons/NextJs";
 import NodeJs from "../components/icons/NodeJs";
 import Firebase from "../components/icons/Firebase";
-import Figma from "../components/icons/Figma";
 import Photoshop from "../components/icons/Photoshop";
 import Illustrator from "../components/icons/Illustrator";
 import AfterEffects from "../components/icons/AfterEffects";
@@ -222,10 +221,10 @@ export default function Home({ publications }) {
         }`}
       >
         <Head>
-          <title>Tonny Batya | Blockchain Developer</title>
+          <title>Tonny Batya</title>
           <meta
             name="description"
-            content="The portfolio of frontend developer and designer, Tonny Batya"
+            content="The portfolio of Tonny Batya, Blockchain Developer"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -254,7 +253,7 @@ export default function Home({ publications }) {
                       scrollTo(homeRef.current);
                     }}
                   >
-                    Home
+                    HOME
                   </button>
                 </li>
                 <li className="z-50 block py-2 list-none lg:inline-block">
@@ -270,7 +269,7 @@ export default function Home({ publications }) {
                       scrollTo(aboutRef.current);
                     }}
                   >
-                    About
+                    ABOUT
                   </button>
                 </li>
                 <li className="z-50 block py-2 list-none lg:inline-block">
@@ -286,7 +285,7 @@ export default function Home({ publications }) {
                       scrollTo(skillsRef.current);
                     }}
                   >
-                    Skills
+                    SKILLS
                   </button>
                 </li>
                 <li className="z-50 block py-2 list-none lg:inline-block">
@@ -302,7 +301,7 @@ export default function Home({ publications }) {
                       scrollTo(myWorkRef.current);
                     }}
                   >
-                    Projects
+                    PROECTS
                   </button>
                 </li>
                 <li className="z-50 block py-2 list-none lg:inline-block">
@@ -320,7 +319,7 @@ export default function Home({ publications }) {
                       scrollTo(blogRef.current);
                     }}
                   >
-                    Blog
+                    BLOG
                   </button>
                 </li>
                 <li className="z-50 block py-2 list-none lg:inline-block">
@@ -336,7 +335,7 @@ export default function Home({ publications }) {
                       scrollTo(contactRef.current);
                     }}
                   >
-                    Contact
+                    CONTACT
                   </button>
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
@@ -344,7 +343,7 @@ export default function Home({ publications }) {
                     href={`mailto:batztonnie@gmail.com`}
                     className="text-lg btn-brand btn-lg group"
                   >
-                    Resume
+                    RESUME
                   </a>
                 </li>
               </ul>
@@ -423,7 +422,7 @@ export default function Home({ publications }) {
             {/* Text */}
             <div className="flex items-center ml-4">
               <p className="text-lg font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
-                Tonny Batya
+                TONNY BATYA
               </p>
             </div>
             {/* Nav */}
@@ -439,7 +438,7 @@ export default function Home({ publications }) {
                       scrollTo(homeRef.current);
                     }}
                   >
-                    Home
+                    HOME
                   </button>
                 </li>
                 <li className="z-50 hidden mx-5 list-none lg:inline-block">
@@ -452,7 +451,7 @@ export default function Home({ publications }) {
                       scrollTo(aboutRef.current);
                     }}
                   >
-                    About
+                    ABOUT
                   </button>
                 </li>
                 <li className="z-50 hidden mx-5 list-none lg:inline-block">
@@ -465,7 +464,7 @@ export default function Home({ publications }) {
                       scrollTo(skillsRef.current);
                     }}
                   >
-                    Skills
+                    SKILLS
                   </button>
                 </li>
                 <li className="z-50 hidden mx-5 list-none lg:inline-block">
@@ -493,7 +492,7 @@ export default function Home({ publications }) {
                       scrollTo(blogRef.current);
                     }}
                   >
-                    Blog
+                    BLOG
                   </button>
                 </li>
                 <li className="z-50 hidden mx-5 list-none lg:inline-block">
@@ -506,7 +505,7 @@ export default function Home({ publications }) {
                       scrollTo(contactRef.current);
                     }}
                   >
-                    Contact
+                    CONTACT
                   </button>
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
@@ -514,7 +513,7 @@ export default function Home({ publications }) {
                     href={``}
                     className="btn-brand btn-md group"
                   >
-                    Resume
+                    RESUME
                   </a>
                 </li>
                 <li className="z-50 inline-block list-none lg:hidden group">
@@ -580,7 +579,7 @@ export default function Home({ publications }) {
                     speed={30}
                     eraseSpeed={30}
                     eraseDelay={1500}
-                    text={[`Blockchain Developer`, `Technical Writer`]}
+                    text={[`Blockchain Dev..`, `Backend Dev..`, `Technical Writer`]}
                   />
                 </h2>
                 <p className="w-4/5 text-xl md:w-full">
@@ -592,7 +591,7 @@ export default function Home({ publications }) {
                     scrollTo(myWorkRef.current);
                   }}
                 >
-                  My Projects
+                  MY WORK
                 </button>
               </div>
             </div>
@@ -614,7 +613,7 @@ export default function Home({ publications }) {
                     Tonny Batya Blockchain developer
                   </p>
                   <p className="text-lg">
-                    I am a passionate Blockchain Developer with a keen interest
+                    I am a passionate Developer with interest
                     in exploring emerging technologies like Artificial Intelligence. I am excited to leverage my skills
                     and experience to contribute to innovative projects and make
                     a difference. As a proactive and self-motivated individual,
@@ -627,7 +626,7 @@ export default function Home({ publications }) {
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
-                    src="/headshot-with-frame-2.jpg"
+                    src="/headshot.png"
                     className="overflow-hidden rounded-md"
                     width={880}
                     height={880}
@@ -1123,7 +1122,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/profileme.png"}
                 liveLink={"https://profileme.dev"}
-                repoLink={"https://github.com/danielcranney/profileme.dev"}
+                repoLink={"https://github.com/devbxtzz/"}
                 stack={
                   <>
                     <Icon
