@@ -15,12 +15,11 @@ import Sass from "../components/icons/Sass";
 import ReactJs from "../components/icons/ReactJs";
 import NextJs from "../components/icons/NextJs";
 import NodeJs from "../components/icons/NodeJs";
-import Firebase from "../components/icons/Firebase";
-import Photoshop from "../components/icons/Photoshop";
-import Illustrator from "../components/icons/Illustrator";
-import AfterEffects from "../components/icons/AfterEffects";
-import AdobeXd from "../components/icons/AdobeXd";
-import Supabase from "../components/icons/Supabase";
+import Typescript from "../components/icons/Typescript";
+import Vscode from "../components/icons/Vscode";
+import Django from "../components/icons/Django";
+import Python from "../components/icons/Python";
+import Solidity from "../components/icons/Solidity";
 import MongoDb from "../components/icons/MongoDb";
 import Express from "../components/icons/Express";
 // Project Card
@@ -181,32 +180,32 @@ export default function Home({ publications }) {
     if (currentTheme === "dark") {
       return (
         <svg
-          className="w-6 h-6 transition-all duration-150 ease-in-out dark:flex dark:opacity-50 dark:group-hover:opacity-100 dark:text-white"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-          />
-        </svg>
-      );
-    } else {
-      return (
-        <svg
           className="w-6 h-6 transition-all duration-150 ease-in-out flex text-mid/50 group-hover:text-dark"
-          fill="none"
+          fill="#fff"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="#fff"
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
             d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+          />
+        </svg>
+      );
+    } else {
+      return (
+        <svg
+          className="w-6 h-6 transition-all duration-150 ease-in-out dark:flex dark:opacity-50 dark:group-hover:opacity-100 dark:text-white"
+          fill="#000"
+          viewBox="0 0 24 24"
+          stroke="#000"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
           />
         </svg>
       );
@@ -301,7 +300,7 @@ export default function Home({ publications }) {
                       scrollTo(myWorkRef.current);
                     }}
                   >
-                    PROECTS
+                    PROJECTS
                   </button>
                 </li>
                 <li className="z-50 block py-2 list-none lg:inline-block">
@@ -366,64 +365,22 @@ export default function Home({ publications }) {
           <div className="container relative flex items-center mx-auto">
             {/* Logo */}
             <div className="z-50 sm:w-8 sm:h-8 w-9 h-9 flex items-center">
-              <svg
-                id="b613d120-e911-4f71-b7bc-d9b9e1bbdc6f"
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 93.13 75.2"
-              >
-                <rect
-                  className="fill-current text-brand"
-                  x="-3.43"
-                  y="39.29"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(-27.18 21.75) rotate(-45)"
-                />
-                <rect
-                  className="fill-current text-brand"
-                  x="-3.43"
-                  y="22.74"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(22.89 -1.01) rotate(45)"
-                />
-                <rect
-                  className="fill-current text-brand"
-                  x="64.37"
-                  y="22.74"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(156.55 -10.59) rotate(135)"
-                />
-                <rect
-                  className="fill-current text-brand"
-                  x="64.37"
-                  y="39.29"
-                  width="32.19"
-                  height="8.78"
-                  rx="4.39"
-                  transform="translate(106.48 131.47) rotate(-135)"
-                />
-                <rect
-                  className="fill-current text-brand"
-                  x="41.93"
-                  y="-1.17"
-                  width="8.78"
-                  height="77.54"
-                  rx="4.39"
-                  transform="translate(11.31 -10.71) rotate(15)"
-                />
-              </svg>
+              <Image
+                src="/logo.svg"
+                className="overflow-hidden rounded-md"
+                width={880}
+                height={880}
+                alt={"Tonny Batya headshot"}
+              />
             </div>
             {/* Text */}
             <div className="flex items-center ml-4">
-              <p className="text-lg font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
+              <h1
+                href="#"
+                className="text-lg font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out"
+              >
                 TONNY BATYA
-              </p>
+              </h1>
             </div>
             {/* Nav */}
             <nav className="block ml-auto h-full">
@@ -477,7 +434,7 @@ export default function Home({ publications }) {
                       scrollTo(myWorkRef.current);
                     }}
                   >
-                    Projects
+                    PROJECTS
                   </button>
                 </li>
                 <li className="z-50 hidden mx-5 list-none lg:inline-block">
@@ -509,10 +466,7 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
-                  <a
-                    href={``}
-                    className="btn-brand btn-md group"
-                  >
+                  <a href={``} className="btn-brand btn-md group">
                     RESUME
                   </a>
                 </li>
@@ -579,7 +533,11 @@ export default function Home({ publications }) {
                     speed={30}
                     eraseSpeed={30}
                     eraseDelay={1500}
-                    text={[`Blockchain Dev..`, `Backend Dev..`, `Technical Writer`]}
+                    text={[
+                      `Blockchain Dev..`,
+                      `Backend Dev..`,
+                      `Technical Writer`,
+                    ]}
                   />
                 </h2>
                 <p className="w-4/5 text-xl md:w-full">
@@ -604,30 +562,29 @@ export default function Home({ publications }) {
             ref={aboutRef}
           >
             <div className="flex flex-col">
-              <h2 className="text-5xl">About</h2>
+              <h2 className="text-5xl">ABOUT</h2>
               <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
+                  <h2 className="text-2xl font-semibold">TONNY BATYA</h2>
                   <p className="text-lg">
-                    Tonny Batya Blockchain developer
-                  </p>
-                  <p className="text-lg">
-                    I am a passionate Developer with interest
-                    in exploring emerging technologies like Artificial Intelligence. I am excited to leverage my skills
-                    and experience to contribute to innovative projects and make
-                    a difference. As a proactive and self-motivated individual,
-                    I am always looking for new opportunities to learn and grow
-                    in my career. I am open to exploring various roles in
-                    Software development and believe that my technical skills,
-                    excellent communication, collaboration, and problem-solving
-                    abilities make me a valuable asset to any team.
+                    A passionate Developer with interest in exploring emerging
+                    technologies like Artificial Intelligence. I am excited to
+                    leverage my skills and experience to contribute to
+                    innovative projects and make a difference. As a proactive
+                    and self-motivated individual, I am always looking for new
+                    opportunities to learn and grow in my career. I am open to
+                    exploring various roles in Software development and believe
+                    that my technical skills, excellent communication,
+                    collaboration, and problem-solving abilities make me a
+                    valuable asset to any team.
                   </p>
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
                     src="/headshot.png"
-                    className="overflow-hidden rounded-md"
+                    className="overflow-hidden rounded-full"
                     width={880}
                     height={880}
                     alt={"Tonny Batya headshot"}
@@ -643,7 +600,7 @@ export default function Home({ publications }) {
             id="skills"
             ref={skillsRef}
           >
-            <h2 className="text-5xl">Skills</h2>
+            <h2 className="text-5xl">SKILLS</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
             {/* Skills icons */}
@@ -778,8 +735,8 @@ export default function Home({ publications }) {
 
               {/* Supabase */}
               <Icon
-                IconType={Supabase}
-                title="Supabase"
+                IconType={Solidity}
+                title="Solidity"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
@@ -824,7 +781,6 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-        
               {/* Bootstrap */}
               <Icon
                 IconType={Bootstrap}
@@ -839,12 +795,12 @@ export default function Home({ publications }) {
                 marginRight={"mr-0"}
                 textTransform={"normal-case"}
                 fixedHeight={"h-28"}
-              /> 
+              />
 
-              {/* Firebase */}
+              {/* Typescript */}
               <Icon
-                IconType={Firebase}
-                title="Firebase"
+                IconType={Typescript}
+                title="Typescript"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
@@ -857,26 +813,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Photoshop */}
+              {/* Vscode */}
               <Icon
-                IconType={Photoshop}
-                title="Photoshop"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Illustrator */}
-              <Icon
-                IconType={Illustrator}
-                title="Illustrator"
+                IconType={Vscode}
+                title="Vscode"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
@@ -891,7 +831,7 @@ export default function Home({ publications }) {
 
               {/* After Effects */}
               <Icon
-                IconType={AfterEffects}
+                IconType={Django}
                 title="After Effects"
                 width={"w-16"}
                 height={"h-16"}
@@ -907,8 +847,8 @@ export default function Home({ publications }) {
 
               {/* Adobe XD */}
               <Icon
-                IconType={AdobeXd}
-                title="Adobe XD"
+                IconType={Python}
+                title="Python"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
@@ -946,7 +886,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/smylo.png"}
                 liveLink={"https://smylo.co/"}
-                repoLink={null}
+                repoLink={"https://github.com/devbxtzz"}
                 stack={
                   <>
                     <Icon
@@ -1012,22 +952,6 @@ export default function Home({ publications }) {
                       textTransform={"uppercase"}
                       fixedHeight={"h-auto"}
                     />
-
-                    <Icon
-                      IconType={Supabase}
-                      title="Supabase"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
                   </>
                 }
               />
@@ -1042,7 +966,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/colorhub.png"}
                 liveLink={"https://colorhub.app/"}
-                repoLink={null}
+                repoLink={"https://github.com/devbxtzz"}
                 stack={
                   <>
                     <Icon
@@ -1192,7 +1116,6 @@ export default function Home({ publications }) {
                 }
               />
             </div>
-
           </section>
 
           {/* Blog */}
@@ -1202,7 +1125,7 @@ export default function Home({ publications }) {
             ref={blogRef}
           >
             {/* Blog header */}
-            <h2 className="text-5xl">Blog</h2>
+            <h2 className="text-5xl">MY ARTICLES</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
             <BlogList publications={publications} />
@@ -1214,14 +1137,14 @@ export default function Home({ publications }) {
             id="contact"
             ref={contactRef}
           >
-            <h2 className="text-5xl">Contact</h2>
+            <h2 className="text-5xl">CONTACT</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
             <div className="flex flex-col-reverse w-full md:flex-row">
               <div className="w-full mb-4 md:pl-0 md:mb-0">
                 <p className="text-lg">
-                  I&apos;m currently available to collaborate on any project,
-                  so get in touch if you&apos;d like us to work together.
+                  I&apos;m currently available to collaborate on any project, so
+                  get in touch if you&apos;d like us to work together.
                 </p>
                 <p className="text-lg">
                   Email me at{" "}
@@ -1238,37 +1161,20 @@ export default function Home({ publications }) {
           </section>
 
           {/* Footer */}
-          <footer className="flex flex-col w-full px-0 py-16 md:px-20 lg:px-24 section">
+          <footer className="flex flex-col w-full px-0 items-center py-16 md:px-20 lg:px-24 section">
             <hr className="w-full h-1 mb-16 dark:bg-white bg-dark border-0 opacity-10"></hr>
             <div className="w-8 mb-4">
-              <svg
-                id="abbe8588-8b21-44fd-a605-eb7de7f82941"
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 93.13 75.2"
-              >
-                <path
-                  className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
-                  d="M24.05,38.51,7.5,55.06a4.39,4.39,0,1,1-6.21-6.21L14.74,35.41,1.29,22A4.39,4.39,0,0,1,7.5,15.75L24.05,32.3A4.4,4.4,0,0,1,24.05,38.51Z"
-                />
-                <path
-                  className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
-                  d="M91.85,55.06a4.38,4.38,0,0,1-6.21,0L69.09,38.51a4.4,4.4,0,0,1,0-6.21L85.64,15.75A4.39,4.39,0,0,1,91.85,22L78.41,35.41,91.85,48.85A4.4,4.4,0,0,1,91.85,55.06Z"
-                />
-                <rect
-                  className="dark:opacity-50 dark:fill-current dark:text-light fill-brand"
-                  x="41.93"
-                  y="-1.17"
-                  width="8.78"
-                  height="77.54"
-                  rx="4.39"
-                  transform="translate(11.31 -10.71) rotate(15)"
-                />
-              </svg>
+              <Image
+                src="/logo.svg"
+                className="overflow-hidden rounded-md"
+                width={900}
+                height={900}
+                alt={"Tonny Batya logo"}
+              />
             </div>
 
-            <div className="flex flex-col items-start md:flex-row">
-              <p className="w-auto mb-4 md:mb-0">
+            <div className="flex flex-col items-center md:flex-row">
+              <p className="w-auto mb-4 md:mb-0 text-2xl">
                 &copy; {new Date().getFullYear()} - Tonny Batya A.K.A Devbxtzz
               </p>
 
