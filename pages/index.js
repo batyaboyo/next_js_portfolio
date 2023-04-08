@@ -339,7 +339,9 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
                   <a
-                    href={`mailto:batztonnie@gmail.com`}
+                    href="https://docs.google.com/document/d/1nItvDAPfn1h1dRJutvcLMuyq2HjHytdr/edit?usp=sharing&ouid=102523442983922998998&rtpof=true&sd=true"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-lg btn-brand btn-lg group"
                   >
                     RESUME
@@ -466,7 +468,10 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
-                  <a href={``} className="btn-brand btn-md group">
+                  <a href="https://docs.google.com/document/d/1nItvDAPfn1h1dRJutvcLMuyq2HjHytdr/edit?usp=sharing&ouid=102523442983922998998&rtpof=true&sd=true" 
+                  target="_blank"
+                    rel="noreferrer"
+                  className="btn-brand btn-md group">
                     RESUME
                   </a>
                 </li>
