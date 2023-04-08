@@ -569,13 +569,13 @@ export default function Home({ publications }) {
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <h2 className="text-2xl font-semibold">TONNY BATYA</h2>
                   <p className="text-lg">
-                    A passionate Developer with interest in exploring emerging
+                    I'm a Blockchain Developer with interest in exploring emerging
                     technologies like Artificial Intelligence. I am excited to
                     leverage my skills and experience to contribute to
                     innovative projects and make a difference. As a proactive
                     and self-motivated individual, I am always looking for new
                     opportunities to learn and grow in my career. I am open to
-                    exploring various roles in Software development and believe
+                    exploring various roles in Blockchain development and believe
                     that my technical skills, excellent communication,
                     collaboration, and problem-solving abilities make me a
                     valuable asset to any team.
