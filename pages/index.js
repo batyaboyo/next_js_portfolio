@@ -1058,7 +1058,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"Portfolio"}
                 status={"Live!!!"}
-                description={`Create an amazing GitHub profile complete with skills icons, stat graphs and more in just a couple of minutes.`}
+                description={`My Portfolio showcasing my projects.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
