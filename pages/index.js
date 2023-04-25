@@ -567,7 +567,7 @@ export default function Home({ publications }) {
             ref={aboutRef}
           >
             <div className="flex flex-col">
-              <h2 className="text-5xl">ABOUT</h2>
+              <h2 className="text-5xl">ABOUT ME</h2>
               <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
