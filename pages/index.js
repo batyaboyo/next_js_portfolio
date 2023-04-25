@@ -1241,6 +1241,7 @@ export default function Home({ publications }) {
                     }`}
                     d="M5.64 5.64h12.73v12.73H5.64z"
                   />
+                  git
                   {/* Border */}
                   <path
                     className={`fill-current origin-center transform transition duration-500 ease-in-out dark:group-hover:text-white group-hover:text-dark group-hover:rotate-45 group-hover:opacity-100 ${
