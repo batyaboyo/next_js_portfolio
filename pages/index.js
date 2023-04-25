@@ -223,7 +223,7 @@ export default function Home({ publications }) {
           <title>Tonny Batya</title>
           <meta
             name="description"
-            content="The portfolio of Tonny Batya, Blockchain Developer"
+            content="The portfolio of Tonny Batya, Software Developer, Software Engineer, Blockchain Developer"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -468,10 +468,12 @@ export default function Home({ publications }) {
                   </button>
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
-                  <a href="https://docs.google.com/document/d/1nItvDAPfn1h1dRJutvcLMuyq2HjHytdr/edit?usp=sharing&ouid=102523442983922998998&rtpof=true&sd=true" 
-                  target="_blank"
+                  <a
+                    href="https://docs.google.com/document/d/1nItvDAPfn1h1dRJutvcLMuyq2HjHytdr/edit?usp=sharing&ouid=102523442983922998998&rtpof=true&sd=true"
+                    target="_blank"
                     rel="noreferrer"
-                  className="btn-brand btn-md group">
+                    className="btn-brand btn-md group"
+                  >
                     RESUME
                   </a>
                 </li>
@@ -545,9 +547,7 @@ export default function Home({ publications }) {
                     ]}
                   />
                 </h2>
-                <p className="w-4/5 text-xl md:w-full">
-                  Building On the Blockchain.
-                </p>
+
                 <button
                   className="mt-4 btn-brand btn-lg group"
                   onClick={() => {
@@ -574,16 +574,16 @@ export default function Home({ publications }) {
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <h2 className="text-2xl font-semibold">TONNY BATYA</h2>
                   <p className="text-lg">
-                    I'm a Blockchain Developer with interest in exploring emerging
-                    technologies like Artificial Intelligence. I am excited to
-                    leverage my skills and experience to contribute to
-                    innovative projects and make a difference. As a proactive
-                    and self-motivated individual, I am always looking for new
-                    opportunities to learn and grow in my career. I am open to
-                    exploring various roles in Blockchain development and believe
-                    that my technical skills, excellent communication,
-                    collaboration, and problem-solving abilities make me a
-                    valuable asset to any team.
+                    I'm a Blockchain Developer with interest in exploring
+                    emerging technologies like Blockchian and Artificial
+                    Intelligence. I am excited to leverage my skills and
+                    experience to contribute to innovative projects and make a
+                    difference. As a proactive and self-motivated individual, I
+                    am always looking for new opportunities to learn and grow in
+                    my career. I am open to exploring various roles in
+                    Blockchain development and believe that my technical skills,
+                    excellent communication, collaboration, and problem-solving
+                    abilities make me a valuable asset to any team.
                   </p>
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
@@ -738,7 +738,7 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Supabase */}
+              {/* Solidity */}
               <Icon
                 IconType={Solidity}
                 title="Solidity"
@@ -834,10 +834,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* After Effects */}
+              {/* Django */}
               <Icon
                 IconType={Django}
-                title="After Effects"
+                title="Django"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
@@ -850,7 +850,7 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Adobe XD */}
+              {/* Python */}
               <Icon
                 IconType={Python}
                 title="Python"
@@ -882,16 +882,16 @@ export default function Home({ publications }) {
             <div className="flex flex-col w-full mb-12">
               {/* Project One */}
               <FeaturedProjectCard
-                title={"Smylo"}
-                status={"Join the Waitlist"}
-                description={`Keep your life on track and never miss another important date again`}
+                title={"Crowdnuru"}
+                status={"Development Phase"}
+                description={`CrowdNuru is a decentralized Crowdfunding, Launchpad, Hiring and Collaboration Platform.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/smylo.png"}
-                liveLink={"https://smylo.co/"}
-                repoLink={"https://github.com/devbxtzz"}
+                imgSrc={"/projects/crowdnuru.png"}
+                liveLink={"https://crowdnuru.netlify.app/"}
+                repoLink={"https://github.com/devbxtzz/crowdnuru"}
                 stack={
                   <>
                     <Icon
@@ -924,6 +924,21 @@ export default function Home({ publications }) {
                       marginRight={"mr-3"}
                       textTransform={"uppercase"}
                       fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Solidity}
+                      title="Solidity"
+                      width={"w-5"}
+                      height={"h-5"}
+                      padding={"p-0"}
+                      flexDirection={"flex-col"}
+                      titleMargins={"mt-4"}
+                      titleSize={"text-sm sm:text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-0"}
+                      textTransform={"normal-case"}
+                      fixedHeight={"h-28"}
                     />
 
                     <Icon
@@ -962,32 +977,31 @@ export default function Home({ publications }) {
               />
               {/* Project Two */}
               <FeaturedProjectCard
-                title={"ColorHub"}
-                status={"V2 Just Launched"}
-                description={`Find the perfect palette for your next perfect. pick it, preview it and paste it right into your code.`}
+                title={"Ecsynths"}
+                status={"Launching soon!!!"}
+                description={`Ecsynths is a synthetic derivatives DEX `}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/colorhub.png"}
-                liveLink={"https://colorhub.app/"}
-                repoLink={"https://github.com/devbxtzz"}
+                imgSrc={"/projects/ecsynths.png"}
+                liveLink={"https://ecsynths.netlify.app/"}
+                repoLink={"https://github.com/devbxtzz/ecsynths"}
                 stack={
                   <>
                     <Icon
-                      IconType={Html}
-                      title="HTML"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
+                      IconType={Solidity}
+                      title="Solidity"
+                      width={"w-5"}
+                      height={"h-5"}
                       padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
+                      flexDirection={"flex-col"}
+                      titleMargins={"mt-4"}
+                      titleSize={"text-sm sm:text-sm"}
                       marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
+                      marginRight={"mr-0"}
+                      textTransform={"normal-case"}
+                      fixedHeight={"h-28"}
                     />
 
                     <Icon
@@ -1042,16 +1056,16 @@ export default function Home({ publications }) {
               />
               {/* Project Three */}
               <FeaturedProjectCard
-                title={"ProfileMe.dev"}
-                status={"Open Source"}
+                title={"Portfolio"}
+                status={"Live!!!"}
                 description={`Create an amazing GitHub profile complete with skills icons, stat graphs and more in just a couple of minutes.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/profileme.png"}
-                liveLink={"https://profileme.dev"}
-                repoLink={"https://github.com/devbxtzz/"}
+                imgSrc={"/projects/portfolio.png"}
+                liveLink={"https://tonnybatya.vercel.app"}
+                repoLink={"https://github.com/devbxtzz/tonny_batya"}
                 stack={
                   <>
                     <Icon
