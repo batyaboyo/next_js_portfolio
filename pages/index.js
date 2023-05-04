@@ -1064,7 +1064,7 @@ export default function Home({ publications }) {
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/portfolio.png"}
-                liveLink={"https://tonnybatya.vercel.app"}
+                liveLink={"https://tonnybatya.netlify.app/"}
                 repoLink={"https://github.com/devbxtzz/tonny_batya"}
                 stack={
                   <>
