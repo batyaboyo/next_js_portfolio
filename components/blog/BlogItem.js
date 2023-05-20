@@ -1,7 +1,7 @@
 import Image from "next/legacy/image";
 export default function BlogItem({ post }) {
   const redirectToHashnode = () => {
-    window.open("https://blog.danielcranney.com/" + post.slug, "_blank");
+    window.open("https://devbxtzz.hashnode.dev/" + post.slug, "_blank");
   };
 
   const getDateAdded = () => {
