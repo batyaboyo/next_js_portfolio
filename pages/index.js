@@ -541,8 +541,8 @@ export default function Home({ publications }) {
                     eraseSpeed={30}
                     eraseDelay={1500}
                     text={[
-                      `Software Engineer...`,
-                      `Blockchain Dev..`,
+                      `Software Developer...`,
+                      `Blockchain Developer..`,
                       `Technical Writer.`,
                     ]}
                   />
