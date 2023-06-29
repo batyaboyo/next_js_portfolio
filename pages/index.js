@@ -575,7 +575,7 @@ export default function Home({ publications }) {
                   <h2 className="text-2xl font-semibold">TONNY BATYA</h2>
                   <p className="text-lg">
                     I'm a Developer with interest in exploring
-                    emerging technologies like Blockchian and Artificial
+                    emerging technologies like Blockchain and Artificial
                     Intelligence. I am excited to leverage my skills and
                     experience to contribute to innovative projects and make a
                     difference. As a proactive and self-motivated individual, I
