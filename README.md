@@ -1,3 +1,3 @@
 # Portfolio 
 
-https://tonnybatya.vercel.app/
+https://tonnybatya.netlify.app/
