@@ -574,7 +574,7 @@ export default function Home({ publications }) {
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <h2 className="text-2xl font-semibold">TONNY BATYA</h2>
                   <p className="text-lg">
-                    I'm a Developer with interest in exploring
+                    I'm a Developer working disruptive and 
                     emerging technologies like Blockchain and Artificial
                     Intelligence. I am excited to leverage my skills and
                     experience to contribute to innovative projects and make a
@@ -882,16 +882,16 @@ export default function Home({ publications }) {
             <div className="flex flex-col w-full mb-12">
               {/* Project One */}
               <FeaturedProjectCard
-                title={"Crowdnuru"}
+                title={"Croudouz"}
                 status={"Development Phase"}
-                description={`CrowdNuru is a decentralized Crowdfunding, Launchpad, Hiring and Collaboration Platform.`}
+                description={`croudouz is a decentralized Crowd Sourcing, Launchpad and Collaboration Platform.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/crowdnuru.png"}
-                liveLink={"https://crowdnuru.netlify.app/"}
-                repoLink={"https://github.com/devbxtzz/crowdnuru"}
+                imgSrc={"/projects/croudouz.png"}
+                liveLink={"https://croudouz.vercel.app/"}
+                repoLink={"https://github.com/devbxtzz/croudouz"}
                 stack={
                   <>
                     <Icon
@@ -1054,7 +1054,355 @@ export default function Home({ publications }) {
                   </>
                 }
               />
-              {/* Project Three */}
+              {/* Project Three*/}
+              <FeaturedProjectCard
+                title={"Croudouz"}
+                status={"Development Phase"}
+                description={`croudouz is a decentralized Crowd Sourcing, Launchpad and Collaboration Platform.`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/croudouz.png"}
+                liveLink={"https://croudouz.vercel.app/"}
+                repoLink={"https://github.com/devbxtzz/croudouz"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={Html}
+                      title="HTML"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Tailwind}
+                      title="Tailwind"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Solidity}
+                      title="Solidity"
+                      width={"w-5"}
+                      height={"h-5"}
+                      padding={"p-0"}
+                      flexDirection={"flex-col"}
+                      titleMargins={"mt-4"}
+                      titleSize={"text-sm sm:text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-0"}
+                      textTransform={"normal-case"}
+                      fixedHeight={"h-28"}
+                    />
+
+                    <Icon
+                      IconType={ReactJs}
+                      title="React"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={NextJs}
+                      title="Next"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              />
+              {/* Project Four */}
+              <FeaturedProjectCard
+                title={"Ecsynths"}
+                status={"Launching soon!!!"}
+                description={`Ecsynths is a synthetic derivatives DEX `}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row-reverse`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/ecsynths.png"}
+                liveLink={"https://ecsynths.netlify.app/"}
+                repoLink={"https://github.com/devbxtzz/ecsynths"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={Solidity}
+                      title="Solidity"
+                      width={"w-5"}
+                      height={"h-5"}
+                      padding={"p-0"}
+                      flexDirection={"flex-col"}
+                      titleMargins={"mt-4"}
+                      titleSize={"text-sm sm:text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-0"}
+                      textTransform={"normal-case"}
+                      fixedHeight={"h-28"}
+                    />
+
+                    <Icon
+                      IconType={Tailwind}
+                      title="Tailwind"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={ReactJs}
+                      title="React"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={NextJs}
+                      title="Next"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              />
+              {/* Project Five */}
+              <FeaturedProjectCard
+                title={"Croudouz"}
+                status={"Development Phase"}
+                description={`croudouz is a decentralized Crowd Sourcing, Launchpad and Collaboration Platform.`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/croudouz.png"}
+                liveLink={"https://croudouz.vercel.app/"}
+                repoLink={"https://github.com/devbxtzz/croudouz"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={Html}
+                      title="HTML"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Tailwind}
+                      title="Tailwind"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Solidity}
+                      title="Solidity"
+                      width={"w-5"}
+                      height={"h-5"}
+                      padding={"p-0"}
+                      flexDirection={"flex-col"}
+                      titleMargins={"mt-4"}
+                      titleSize={"text-sm sm:text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-0"}
+                      textTransform={"normal-case"}
+                      fixedHeight={"h-28"}
+                    />
+
+                    <Icon
+                      IconType={ReactJs}
+                      title="React"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={NextJs}
+                      title="Next"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              />
+              {/* Project Six */}
+              <FeaturedProjectCard
+                title={"Ecsynths"}
+                status={"Launching soon!!!"}
+                description={`Ecsynths is a synthetic derivatives DEX `}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row-reverse`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/ecsynths.png"}
+                liveLink={"https://ecsynths.netlify.app/"}
+                repoLink={"https://github.com/devbxtzz/ecsynths"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={Solidity}
+                      title="Solidity"
+                      width={"w-5"}
+                      height={"h-5"}
+                      padding={"p-0"}
+                      flexDirection={"flex-col"}
+                      titleMargins={"mt-4"}
+                      titleSize={"text-sm sm:text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-0"}
+                      textTransform={"normal-case"}
+                      fixedHeight={"h-28"}
+                    />
+
+                    <Icon
+                      IconType={Tailwind}
+                      title="Tailwind"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={ReactJs}
+                      title="React"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={NextJs}
+                      title="Next"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              />
+              {/* Project Seven */}
               <FeaturedProjectCard
                 title={"Portfolio"}
                 status={"Live!!!"}
