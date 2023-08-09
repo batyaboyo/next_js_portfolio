@@ -977,33 +977,18 @@ export default function Home({ publications }) {
               />
               {/* Project Two */}
               <FeaturedProjectCard
-                title={"Ecsynths"}
+                title={"PedalCliq"}
                 status={"Launching soon!!!"}
-                description={`Ecsynths is a synthetic derivatives DEX `}
+                description={`PedalCliq is a Bike (Bicycle) Rantal and Sharing App`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/ecsynths.png"}
-                liveLink={"https://ecsynths.netlify.app/"}
-                repoLink={"https://github.com/devbxtzz/ecsynths"}
+                imgSrc={"/projects/pedalcliq.png"}
+                liveLink={"https://pedalcliq.vercel.app/"}
+                repoLink={"https://github.com/devbxtzz/pedalcliq"}
                 stack={
                   <>
-                    <Icon
-                      IconType={Solidity}
-                      title="Solidity"
-                      width={"w-5"}
-                      height={"h-5"}
-                      padding={"p-0"}
-                      flexDirection={"flex-col"}
-                      titleMargins={"mt-4"}
-                      titleSize={"text-sm sm:text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-0"}
-                      textTransform={"normal-case"}
-                      fixedHeight={"h-28"}
-                    />
-
                     <Icon
                       IconType={Tailwind}
                       title="Tailwind"
@@ -1056,16 +1041,16 @@ export default function Home({ publications }) {
               />
               {/* Project Three*/}
               <FeaturedProjectCard
-                title={"Croudouz"}
+                title={"Bodabee"}
                 status={"Development Phase"}
-                description={`croudouz is a decentralized Crowd Sourcing, Launchpad and Collaboration Platform.`}
+                description={`Bodabee is a All Electric Ride Hailing, Sharing And Delivery Service.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/croudouz.png"}
-                liveLink={"https://croudouz.vercel.app/"}
-                repoLink={"https://github.com/devbxtzz/croudouz"}
+                imgSrc={"/projects/bodabee.png"}
+                liveLink={"https://bodabee.com/"}
+                repoLink={"https://github.com/devbxtzz/bodabee_landing_page"}
                 stack={
                   <>
                     <Icon
@@ -1098,21 +1083,6 @@ export default function Home({ publications }) {
                       marginRight={"mr-3"}
                       textTransform={"uppercase"}
                       fixedHeight={"h-auto"}
-                    />
-
-                    <Icon
-                      IconType={Solidity}
-                      title="Solidity"
-                      width={"w-5"}
-                      height={"h-5"}
-                      padding={"p-0"}
-                      flexDirection={"flex-col"}
-                      titleMargins={"mt-4"}
-                      titleSize={"text-sm sm:text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-0"}
-                      textTransform={"normal-case"}
-                      fixedHeight={"h-28"}
                     />
 
                     <Icon
