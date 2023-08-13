@@ -36,7 +36,7 @@ import BlogItem from "../components/blog/BlogItem";
 // Dark Mode
 import { useTheme } from "next-themes";
 
-import { projects } from "../utils/constants";
+// import { projects } from "../utils/constants";
 
 const getDimensions = (ele) => {
   const { height } = ele.getBoundingClientRect();
@@ -527,9 +527,9 @@ export default function Home({ publications }) {
         {/* Content Container */}
         <div className="container relative z-30 mx-auto">
           {/* Hero Content */}
-          <main className={`flex-col flex h-screen`} id="home" ref={homeRef}>
+          <main className={`flex-col items-center justify-center flex h-screen`} id="home" ref={homeRef}>
             {/* Main */}
-            <div className="container relative flex flex-col items-start justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
+            <div className="container relative flex flex-col items-center justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
               <div className="w-full">
                 <h1 className="mb-4 text-5xl md:text-7xl dark:text-white text-dark">
                   TONNY BATYA
@@ -592,7 +592,7 @@ export default function Home({ publications }) {
                     className="overflow-hidden rounded-full"
                     width={880}
                     height={880}
-                    alt={"Tonny Batya headshot"}
+                    alt={"Tonny Batya"}
                   />
                 </div>
               </div>
@@ -884,7 +884,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"Croudouz"}
                 status={"Development Phase"}
-                description={`croudouz is a decentralized Crowd Sourcing, Launchpad and Collaboration Platform.`}
+                description={`Croudouz is a decentralized Crowd Sourcing, Launchpad and Collaboration Platform.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
@@ -924,21 +924,6 @@ export default function Home({ publications }) {
                       marginRight={"mr-3"}
                       textTransform={"uppercase"}
                       fixedHeight={"h-auto"}
-                    />
-
-                    <Icon
-                      IconType={Solidity}
-                      title="Solidity"
-                      width={"w-5"}
-                      height={"h-5"}
-                      padding={"p-0"}
-                      flexDirection={"flex-col"}
-                      titleMargins={"mt-4"}
-                      titleSize={"text-sm sm:text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-0"}
-                      textTransform={"normal-case"}
-                      fixedHeight={"h-28"}
                     />
 
                     <Icon
@@ -1043,7 +1028,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"Bodabee"}
                 status={"Development Phase"}
-                description={`Landing Page For Bodabee a All Electric Ride Hailing, Sharing And Delivery Service.`}
+                description={`Landing Page For Bodabee n All Electric Ride Hailing, Sharing And Delivery Service.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
