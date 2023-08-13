@@ -895,8 +895,8 @@ export default function Home({ publications }) {
                 stack={
                   <>
                     <Icon
-                      IconType={Html}
-                      title="HTML"
+                      IconType={Solidity}
+                      title="Solidity"
                       columnSizing={"w-auto"}
                       width={"w-6"}
                       height={"h-6"}
