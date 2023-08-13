@@ -1043,7 +1043,7 @@ export default function Home({ publications }) {
               <FeaturedProjectCard
                 title={"Bodabee"}
                 status={"Development Phase"}
-                description={`Bodabee is a All Electric Ride Hailing, Sharing And Delivery Service.`}
+                description={`Landing Page For Bodabee a All Electric Ride Hailing, Sharing And Delivery Service.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
