@@ -511,10 +511,10 @@ export default function Home({ publications }) {
             {/* Main */}
             <div className="container relative flex flex-col items-center justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
               <div className="grid justify-items-center">
-                <h1 className="m-8 text-7xl md:text-4xl dark:text-white text-dark">
+                <h1 className="m-8 dark:text-white text-dark">
                   TONNY BATYA
                 </h1>
-                <h2 className="m-8 text-4xl md:text-3xl dark:text-light text-mid">
+                <h2 className="m-8 dark:text-light text-mid">
                   <ReactTypingEffect
                     typingDelay={200}
                     speed={30}
@@ -1487,7 +1487,7 @@ export default function Home({ publications }) {
  * Method used to fetch data from Hashnode.
  * @param {Object} context
  * @returns props
- */
+*/
 export async function getServerSideProps(context) {
   const res = await fetch("https://api.hashnode.com/", {
     method: "POST",
