@@ -521,9 +521,9 @@ export default function Home({ publications }) {
                     eraseSpeed={30}
                     eraseDelay={1500}
                     text={[
-                      `Software Developer...`,
-                      `Blockchain Developer..`,
-                      `Technical Writer.`,
+                      `Software Developer`,
+                      `Blockchain Developer`,
+                      `Technical Writer`,
                     ]}
                   />
                 </h2>
