@@ -523,7 +523,7 @@ export default function Home({ publications }) {
                     text={[
                       `Software Developer.`,
                       `Blockchain Developer.`,
-                      `Technical Writer..`,
+                      `Technical Writer.`,
                     ]}
                   />
                 </h2>
