@@ -553,7 +553,7 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   
-                  <p className="text-lg">
+                  <p className="mt-12 text-lg">
                     I'm a Developer working with disruptive and
                     emerging technologies like Blockchain and Artificial
                     Intelligence. I am excited to leverage my skills and
