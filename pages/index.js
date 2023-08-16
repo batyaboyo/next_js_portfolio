@@ -552,9 +552,9 @@ export default function Home({ publications }) {
 
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
-                  <h2 className="text-2xl font-semibold">TONNY BATYA</h2>
+                  
                   <p className="text-lg">
-                    I'm a Developer working disruptive and
+                    I'm a Developer working with disruptive and
                     emerging technologies like Blockchain and Artificial
                     Intelligence. I am excited to leverage my skills and
                     experience to contribute to innovative projects and make a
