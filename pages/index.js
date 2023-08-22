@@ -230,8 +230,8 @@ export default function Home({ publications }) {
         {/* Full-screen Menu */}
         <div
           className={`fixed w-full z-50 h-screen pt-24 bg-white dark:bg-darker bg-opacity-100 transform delay-100 transition-all duration-150 ${navbarOpen
-              ? "opacity-100 translate-x-0"
-              : "opacity-0 -translate-x-full"
+            ? "opacity-100 translate-x-0"
+            : "opacity-0 -translate-x-full"
             }`}
         >
           <div className="container relative mx-auto">
@@ -241,8 +241,8 @@ export default function Home({ publications }) {
                   <button
                     href="#"
                     className={`header_link text-xl font-semibold transition-all duration-150 ease-in-out ${visibleSection === "home"
-                        ? "selected delay-200"
-                        : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
+                      ? "selected delay-200"
+                      : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
                       }`}
                     onClick={() => {
                       setNavbarOpen(false);
@@ -252,27 +252,13 @@ export default function Home({ publications }) {
                     HOME
                   </button>
                 </li>
-                <li className="z-50 block py-2 list-none lg:inline-block">
-                  <button
-                    href="#"
-                    className={`header_link text-xl font-semibold transition-all duration-150 ease-in-out ${visibleSection === "about"
-                        ? "current"
-                        : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
-                      }`}
-                    onClick={() => {
-                      setNavbarOpen(false);
-                      scrollTo(aboutRef.current);
-                    }}
-                  >
-                    ABOUT
-                  </button>
-                </li>
+
                 <li className="z-50 block py-2 list-none lg:inline-block">
                   <button
                     href="#"
                     className={`header_link text-xl font-semibold transition-all duration-150 ease-in-out ${visibleSection === "skills"
-                        ? "current"
-                        : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
+                      ? "current"
+                      : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
                       }`}
                     onClick={() => {
                       setNavbarOpen(false);
@@ -286,8 +272,8 @@ export default function Home({ publications }) {
                   <button
                     href="#"
                     className={`header_link text-xl font-semibold transition-all duration-150 ease-in-out ${visibleSection === "my-work"
-                        ? "current"
-                        : "dark:text-light dark:hover:text-white text-mid/50  hover:text-mid border-b-2 border-transparent"
+                      ? "current"
+                      : "dark:text-light dark:hover:text-white text-mid/50  hover:text-mid border-b-2 border-transparent"
                       }`}
                     onClick={() => {
                       setNavbarOpen(false);
@@ -303,8 +289,8 @@ export default function Home({ publications }) {
                     target="_blank"
                     rel="noreferrer"
                     className={`header_link text-xl font-semibold transition-all duration-150 ease-in-out ${visibleSection === "blog"
-                        ? "current"
-                        : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
+                      ? "current"
+                      : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
                       }`}
                     onClick={() => {
                       setNavbarOpen(false);
@@ -318,8 +304,8 @@ export default function Home({ publications }) {
                   <button
                     href="#"
                     className={`header_link text-xl font-semibold transition-all duration-150 ease-in-out ${visibleSection === "contact"
-                        ? "current"
-                        : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
+                      ? "current"
+                      : "dark:text-light dark:hover:text-white text-mid/50 hover:text-mid border-b-2 border-transparent"
                       }`}
                     onClick={() => {
                       setNavbarOpen(false);
@@ -389,18 +375,7 @@ export default function Home({ publications }) {
                     HOME
                   </button>
                 </li>
-                <li className="z-50 hidden mx-5 list-none lg:inline-block">
-                  <button
-                    href="#"
-                    className={`nav-item ${visibleSection === "about" ? "current" : "active"
-                      }`}
-                    onClick={() => {
-                      scrollTo(aboutRef.current);
-                    }}
-                  >
-                    ABOUT
-                  </button>
-                </li>
+
                 <li className="z-50 hidden mx-5 list-none lg:inline-block">
                   <button
                     href="#"
@@ -464,8 +439,8 @@ export default function Home({ publications }) {
                 <li className="z-50 inline-block list-none lg:hidden group">
                   <button
                     className={`relative w-10 h-10 ${navbarOpen
-                        ? "dark:text-white text-dark"
-                        : "text-mid/50 group-hover:text-mid dark:opacity-50 dark:group-hover:opacity-100 dark:text-white dark:group-hover:text-white"
+                      ? "dark:text-white text-dark"
+                      : "text-mid/50 group-hover:text-mid dark:opacity-50 dark:group-hover:opacity-100 dark:text-white dark:group-hover:text-white"
                       } focus:outline-none`}
                     onClick={() => setNavbarOpen(!navbarOpen)}
                   >
@@ -514,19 +489,9 @@ export default function Home({ publications }) {
                 <h1 className="m-12 text-2xl sm:text-6xl dark:text-white text-dark">
                   TONNY BATYA
                 </h1>
-                <h2 className="m-8 text-xl sm:text-3xl dark:text-light text-mid">
-                  <ReactTypingEffect
-                    typingDelay={200}
-                    speed={30}
-                    eraseSpeed={30}
-                    eraseDelay={1500}
-                    text={[
-                      `Software Developer.`,
-                      `Blockchain Developer.`,
-                      `Technical Writer.`,
-                    ]}
-                  />
-                </h2>
+                <p className="m-8 text-center text-xl sm:text-2xl dark:text-light text-mid">
+                  Software Developer, Blockchain and AI Enthusiast, Founder, and Writer at the Forefront of Emerging Technologies: Fusing Proficiency in Coding with a Passion for Blockchain and AI to Engineer and Chronicle Extraordinary Online Experiences
+                </p>
 
                 <button
                   className="m-8 btn-brand btn-lg group"
@@ -540,44 +505,6 @@ export default function Home({ publications }) {
             </div>
           </main>
 
-          {/* About */}
-          <section
-            className="flex flex-col w-full px-0 md:px-20 lg:px-24 py-28 section"
-            id="about"
-            ref={aboutRef}
-          >
-            <div className="flex flex-col">
-              <h2 className="text-5xl">ABOUT ME</h2>
-              <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
-
-              <div className="flex flex-col-reverse items-start w-full md:flex-row">
-                <div className="flex flex-col w-full md:pr-8 md:w-3/5">
-                  
-                  <p className="mt-12 text-lg">
-                    I'm a Developer working with disruptive and
-                    emerging technologies like Blockchain and Artificial
-                    Intelligence. I am excited to leverage my skills and
-                    experience to contribute to innovative projects and make a
-                    difference. As a proactive and self-motivated individual, I
-                    am always looking for new opportunities to learn and grow in
-                    my career. I am open to exploring various roles in
-                    Blockchain development and believe that my technical skills,
-                    excellent communication, collaboration, and problem-solving
-                    abilities make me a valuable asset to any team.
-                  </p>
-                </div>
-                <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
-                  <Image
-                    src="/headshot.png"
-                    className="overflow-hidden rounded-full"
-                    width={880}
-                    height={880}
-                    alt={"Tonny Batya"}
-                  />
-                </div>
-              </div>
-            </div>
-          </section>
 
           {/* Skills */}
           <section
@@ -1266,8 +1193,8 @@ export default function Home({ publications }) {
                 <svg
                   id="e5c888e5-3206-4553-8f53-60ee93248ad9"
                   className={`group rounded-sm transform  transition duration-500 ease-in-out hover:rotate-45 hover:scale-110 ${visibleSection === "home"
-                      ? "rotate-45 scale-110"
-                      : "rotate-0 scale-100"
+                    ? "rotate-45 scale-110"
+                    : "rotate-0 scale-100"
                     }`}
                   data-name="Layer 1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1277,58 +1204,23 @@ export default function Home({ publications }) {
                   {/* Fill */}
                   <path
                     className={`fill-current origin-center transform transition duration-200 ease-in-out group-hover:text-dark dark:group-hover:text-white group-hover:rotate-90 ${visibleSection === "home"
-                        ? "dark:text-white text-mid rotate-90"
-                        : "dark:text-dark text-light rotate-0"
+                      ? "dark:text-white text-mid rotate-90"
+                      : "dark:text-dark text-light rotate-0"
                       }`}
                     d="M5.64 5.64h12.73v12.73H5.64z"
                   />
                   {/* Border */}
                   <path
                     className={`fill-current origin-center transform transition duration-500 ease-in-out dark:group-hover:text-white group-hover:text-dark group-hover:rotate-45 group-hover:opacity-100 ${visibleSection === "home"
-                        ? "dark:text-white text-dark rotate-45 opacity-100"
-                        : "dark:text-white text-light rotate-45"
+                      ? "dark:text-white text-dark rotate-45 opacity-100"
+                      : "dark:text-white text-light rotate-45"
                       }`}
                     d="M12 22.41L1.59 12 12 1.59 22.41 12zM4.41 12L12 19.59 19.59 12 12 4.41z"
                   />
                 </svg>
               </button>
-              {/* About - Diamond 2 */}
-              <button
-                className="w-5 h-5 mb-4"
-                onClick={() => {
-                  scrollTo(aboutRef.current);
-                }}
-              >
-                <svg
-                  id="e5c888e5-3206-4553-8f53-60ee93248ad9"
-                  className={`group rounded-sm transform  transition duration-500 ease-in-out hover:rotate-45 hover:scale-110 ${visibleSection === "about"
-                      ? "rotate-45 scale-110"
-                      : "rotate-0 scale-100"
-                    }`}
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0
-              0 24 24"
-                >
-                  {/* Fill */}
-                  <path
-                    className={`fill-current origin-center transform transition duration-200 ease-in-out group-hover:text-dark dark:group-hover:text-white group-hover:rotate-90 ${visibleSection === "about"
-                        ? "dark:text-white text-mid rotate-90"
-                        : "dark:text-dark text-light rotate-0"
-                      }`}
-                    d="M5.64 5.64h12.73v12.73H5.64z"
-                  />
-                  {/* Border */}
-                  <path
-                    className={`fill-current origin-center transform transition duration-500 ease-in-out dark:group-hover:text-white group-hover:text-dark group-hover:rotate-45 group-hover:opacity-100 ${visibleSection === "about"
-                        ? "dark:text-white text-dark rotate-45 opacity-100"
-                        : "dark:text-white text-light rotate-45"
-                      }`}
-                    d="M12 22.41L1.59 12 12 1.59 22.41 12zM4.41 12L12 19.59 19.59 12 12 4.41z"
-                  />
-                </svg>
-              </button>
-              {/* Skills - Diamond 3 */}
+
+              {/* Skills - Diamond 2 */}
               <button
                 className="w-5 h-5 mb-4"
                 onClick={() => {
@@ -1338,8 +1230,8 @@ export default function Home({ publications }) {
                 <svg
                   id="e5c888e5-3206-4553-8f53-60ee93248ad9"
                   className={`group rounded-sm transform  transition duration-500 ease-in-out hover:rotate-45 hover:scale-110 ${visibleSection === "skills"
-                      ? "rotate-45 scale-110"
-                      : "rotate-0 scale-100"
+                    ? "rotate-45 scale-110"
+                    : "rotate-0 scale-100"
                     }`}
                   data-name="Layer 1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1349,22 +1241,22 @@ export default function Home({ publications }) {
                   {/* Fill */}
                   <path
                     className={`fill-current origin-center transform transition duration-200 ease-in-out group-hover:text-dark dark:group-hover:text-white group-hover:rotate-90 ${visibleSection === "skills"
-                        ? "dark:text-white text-mid rotate-90"
-                        : "dark:text-dark text-light rotate-0"
+                      ? "dark:text-white text-mid rotate-90"
+                      : "dark:text-dark text-light rotate-0"
                       }`}
                     d="M5.64 5.64h12.73v12.73H5.64z"
                   />
                   {/* Border */}
                   <path
                     className={`fill-current origin-center transform transition duration-500 ease-in-out dark:group-hover:text-white group-hover:text-dark group-hover:rotate-45 group-hover:opacity-100 ${visibleSection === "skills"
-                        ? "dark:text-white text-dark rotate-45 opacity-100"
-                        : "dark:text-white text-light rotate-45"
+                      ? "dark:text-white text-dark rotate-45 opacity-100"
+                      : "dark:text-white text-light rotate-45"
                       }`}
                     d="M12 22.41L1.59 12 12 1.59 22.41 12zM4.41 12L12 19.59 19.59 12 12 4.41z"
                   />
                 </svg>
               </button>
-              {/* My Work - Diamond 4 */}
+              {/* My Work - Diamond 3 */}
               <button
                 className="w-5 h-5 mb-4"
                 onClick={() => {
@@ -1374,8 +1266,8 @@ export default function Home({ publications }) {
                 <svg
                   id="e5c888e5-3206-4553-8f53-60ee93248ad9"
                   className={`group rounded-sm transform transition duration-500 ease-in-out hover:rotate-45 hover:scale-110 ${visibleSection === "my-work"
-                      ? "rotate-45 scale-110"
-                      : "rotate-0 scale-100"
+                    ? "rotate-45 scale-110"
+                    : "rotate-0 scale-100"
                     }`}
                   data-name="Layer 1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1385,22 +1277,22 @@ export default function Home({ publications }) {
                   {/* Fill */}
                   <path
                     className={`fill-current origin-center transform transition duration-200 ease-in-out group-hover:text-dark dark:group-hover:text-white group-hover:rotate-90 ${visibleSection === "my-work"
-                        ? "dark:text-white text-mid rotate-90"
-                        : "dark:text-dark text-light rotate-0"
+                      ? "dark:text-white text-mid rotate-90"
+                      : "dark:text-dark text-light rotate-0"
                       }`}
                     d="M5.64 5.64h12.73v12.73H5.64z"
                   />
                   {/* Border */}
                   <path
                     className={`fill-current origin-center transform transition duration-500 ease-in-out dark:group-hover:text-white group-hover:text-dark group-hover:rotate-45 group-hover:opacity-100 ${visibleSection === "my-work"
-                        ? "dark:text-white text-dark rotate-45 opacity-100"
-                        : "dark:text-white text-light rotate-45"
+                      ? "dark:text-white text-dark rotate-45 opacity-100"
+                      : "dark:text-white text-light rotate-45"
                       }`}
                     d="M12 22.41L1.59 12 12 1.59 22.41 12zM4.41 12L12 19.59 19.59 12 12 4.41z"
                   />
                 </svg>
               </button>
-              {/* Blog - Diamond 5 */}
+              {/* Blog - Diamond 4 */}
               <button
                 className="w-5 h-5 mb-4"
                 onClick={() => {
@@ -1410,8 +1302,8 @@ export default function Home({ publications }) {
                 <svg
                   id="e5c888e5-3206-4553-8f53-60ee93248ad9"
                   className={`group rounded-sm transform transition duration-500 ease-in-out hover:rotate-45 hover:scale-110 ${visibleSection === "blog"
-                      ? "rotate-45 scale-110"
-                      : "rotate-0 scale-100"
+                    ? "rotate-45 scale-110"
+                    : "rotate-0 scale-100"
                     }`}
                   data-name="Layer 1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1421,22 +1313,22 @@ export default function Home({ publications }) {
                   {/* Fill */}
                   <path
                     className={`fill-current origin-center transform transition duration-200 ease-in-out group-hover:text-dark dark:group-hover:text-white group-hover:rotate-90 ${visibleSection === "blog"
-                        ? "dark:text-white text-mid rotate-90"
-                        : "dark:text-dark text-light rotate-0"
+                      ? "dark:text-white text-mid rotate-90"
+                      : "dark:text-dark text-light rotate-0"
                       }`}
                     d="M5.64 5.64h12.73v12.73H5.64z"
                   />
                   {/* Border */}
                   <path
                     className={`fill-current origin-center transform transition duration-500 ease-in-out dark:group-hover:text-white group-hover:text-dark group-hover:rotate-45 group-hover:opacity-100 ${visibleSection === "blog"
-                        ? "dark:text-white text-dark rotate-45 opacity-100"
-                        : "dark:text-white text-light rotate-45"
+                      ? "dark:text-white text-dark rotate-45 opacity-100"
+                      : "dark:text-white text-light rotate-45"
                       }`}
                     d="M12 22.41L1.59 12 12 1.59 22.41 12zM4.41 12L12 19.59 19.59 12 12 4.41z"
                   />
                 </svg>
               </button>
-              {/* Contact - Diamond 6 */}
+              {/* Contact - Diamond 5 */}
               <button
                 className="w-5 h-5 mb-4"
                 onClick={() => {
@@ -1446,8 +1338,8 @@ export default function Home({ publications }) {
                 <svg
                   id="e5c888e5-3206-4553-8f53-60ee93248ad9"
                   className={`group rounded-sm transform  transition duration-500 ease-in-out hover:rotate-45 hover:scale-110 ${visibleSection === "contact"
-                      ? "rotate-45 scale-110"
-                      : "rotate-0 scale-100"
+                    ? "rotate-45 scale-110"
+                    : "rotate-0 scale-100"
                     }`}
                   data-name="Layer 1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1457,16 +1349,16 @@ export default function Home({ publications }) {
                   {/* Fill */}
                   <path
                     className={`fill-current origin-center transform transition duration-200 ease-in-out group-hover:text-dark dark:group-hover:text-white group-hover:rotate-90 ${visibleSection === "contact"
-                        ? "dark:text-white text-mid rotate-90"
-                        : "dark:text-dark text-light rotate-0"
+                      ? "dark:text-white text-mid rotate-90"
+                      : "dark:text-dark text-light rotate-0"
                       }`}
                     d="M5.64 5.64h12.73v12.73H5.64z"
                   />
                   {/* Border */}
                   <path
                     className={`fill-current origin-center transform transition duration-500 ease-in-out dark:group-hover:text-white group-hover:text-dark group-hover:rotate-45 group-hover:opacity-100 ${visibleSection === "contact"
-                        ? "dark:text-white text-dark rotate-45 opacity-100"
-                        : "dark:text-white text-light rotate-45"
+                      ? "dark:text-white text-dark rotate-45 opacity-100"
+                      : "dark:text-white text-light rotate-45"
                       }`}
                     d="M12 22.41L1.59 12 12 1.59 22.41 12zM4.41 12L12 19.59 19.59 12 12 4.41z"
                   />
