@@ -489,6 +489,7 @@ export default function Home({ publications }) {
                 <h1 className="m-12 text-2xl sm:text-6xl dark:text-white text-dark">
                   TONNY BATYA
                 </h1>
+                
                 <p className="m-8 text-center text-xl sm:text-2xl dark:text-light text-mid">
                   Software Developer, Blockchain and AI Enthusiast, Founder, and Writer at the Forefront of Emerging Technologies: Fusing Proficiency in Coding with a Passion for Blockchain and AI to Engineer and Chronicle Extraordinary Online Experiences
                 </p>
