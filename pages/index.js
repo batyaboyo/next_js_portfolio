@@ -935,8 +935,8 @@ export default function Home({ publications }) {
               {/* Project Three*/}
               <FeaturedProjectCard
                 title={"Bodabee"}
-                status={"Development Phase"}
-                description={`Landing Page For Bodabee n All Electric Ride Hailing, Sharing And Delivery Service.`}
+                status={"Live..!"}
+                description={`Landing Page For Bodabee and All Electric Ride Hailing, Sharing And Delivery Service.`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
