@@ -952,7 +952,7 @@ export default function Home({ publications }) {
                 imgWidth={"1366"}
                 imgHeight={"666"}
                 imgSrc={"/projects/bodabee.png"}
-                liveLink={"https://bodabee.com/"}
+                liveLink={"https://bodabee.vercel.app"}
                 repoLink={"https://github.com/devbxtzz/bodabee_landing_page"}
                 stack={
                   <>
