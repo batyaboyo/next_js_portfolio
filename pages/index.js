@@ -490,7 +490,7 @@ export default function Home({ publications }) {
                   TONNY BATYA
                 </h1>
 
-                <div className="relative h-48 w-48 md:h-96 md:w-96"> //"relative" is required; change height and width if needed
+                <div className="relative h-48 w-48 md:h-96 md:w-96">
                     <Image
                         src='/images/logo.png'
                         alt="Logo"
