@@ -490,16 +490,7 @@ export default function Home({ publications }) {
                   TONNY BATYA
                 </h1>
 
-                <div className="relative h-48 w-48 md:h-96 md:w-96">
-                    <Image
-                        src='/images/logo.png'
-                        alt="Logo"
-                        layout="fill" // required
-                        objectFit="cover" // change as you like
-                        className="rounded-full" // you can use other classes here too
-                    />
-                </div>
-                
+              
                 <p className="m-8 text-center text-xl sm:text-2xl dark:text-light text-mid">
                   Software Developer, Blockchain and AI Enthusiast, Writer and Founder at the Forefront of Emerging Technologies. Fusing Proficiency in Coding with a Passion for Blockchain and AI to Engineer and Build Extraordinary Online Experiences
                 </p>
