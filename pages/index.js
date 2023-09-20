@@ -490,6 +490,16 @@ export default function Home({ publications }) {
                   TONNY BATYA
                 </h1>
 
+
+<div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
+                  <Image
+                    src="/headshot-with-frame-2.jpg"
+                    className="overflow-hidden rounded-md"
+                    width={880}
+                    height={880}
+                    alt={"Daniel Cranney headshot"}
+                  />
+                </div>
               
                 <p className="m-8 text-center text-xl sm:text-2xl dark:text-light text-mid">
                   Software Developer, Blockchain and AI Enthusiast, Writer and Founder at the Forefront of Emerging Technologies. Fusing Proficiency in Coding with a Passion for Blockchain and AI to Engineer and Build Extraordinary Online Experiences
