@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+noimport React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
 import Image from "next/legacy/image";
 import Link from "next/link";
@@ -491,12 +491,12 @@ export default function Home({ publications }) {
                 </h1>
 
 
-<div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
+<div className="w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
                     src="/headshot.jpg"
                     className="overflow-hidden rounded-full"
-                    width={30}
-                    height={30}
+                    width={130}
+                    height={130}
                   
                   />
                 </div>
