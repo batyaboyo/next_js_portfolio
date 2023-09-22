@@ -495,8 +495,8 @@ export default function Home({ publications }) {
                   <Image
                     src="/headshot.jpg"
                     className="overflow-hidden rounded-full"
-                    width={300}
-                    height={300}
+                    width={30}
+                    height={30}
                   
                   />
                 </div>
