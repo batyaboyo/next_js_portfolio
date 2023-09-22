@@ -494,9 +494,9 @@ export default function Home({ publications }) {
 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
                     src="/headshot.jpg"
-                    className="overflow-hidden rounded"
-                    width={380}
-                    height={380}
+                    className="overflow-hidden rounded-full"
+                    width={300}
+                    height={300}
                   
                   />
                 </div>
