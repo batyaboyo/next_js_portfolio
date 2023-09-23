@@ -491,7 +491,7 @@ export default function Home({ publications }) {
                 </h1>
 
 
-<div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
+<div className="flex items-center justify-center w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
                     src="/headshot.jpg"
                     className="overflow-hidden rounded-full"
