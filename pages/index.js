@@ -486,7 +486,7 @@ export default function Home({ publications }) {
             {/* Main */}
             <div className="container relative flex flex-col items-center justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
               <div className="grid justify-items-center">
-                <h1 className="m-12 text-xl sm:text-3xl dark:text-white text-dark">
+                <h1 className="m-16 text-xl sm:text-3xl dark:text-white text-dark">
                   TONNY BATYA
                 </h1>
 
@@ -501,13 +501,13 @@ export default function Home({ publications }) {
                   />
                 </div>
               
-                <p className="m-8 text-center text-xl sm:text-2xl dark:text-light text-mid">
+                <p className="m-6 text-center text-xl sm:text-2xl dark:text-light text-mid">
                   
 Software developer and Writer. Engineering extraordinary online experiences with the power of Blockchain and AI.               
  </p>
 
                 <button
-                  className="m-8 btn-brand btn-lg group"
+                  className="m-6 btn-brand btn-lg group"
                   onClick={() => {
                     scrollTo(myWorkRef.current);
                   }}
