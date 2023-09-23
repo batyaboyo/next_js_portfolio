@@ -502,8 +502,9 @@ export default function Home({ publications }) {
                 </div>
               
                 <p className="m-8 text-center text-xl sm:text-2xl dark:text-light text-mid">
-                  Software Developer, Blockchain and AI Enthusiast, Writer and Founder at the Forefront of Emerging Technologies. Fusing Proficiency in Coding with a Passion for Blockchain and AI to Engineer and Build Extraordinary Online Experiences
-                </p>
+                  
+Software developer and Writer. Engineering extraordinary online experiences with the power of Blockchain and AI.               
+ </p>
 
                 <button
                   className="m-8 btn-brand btn-lg group"
