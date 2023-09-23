@@ -486,12 +486,12 @@ export default function Home({ publications }) {
             {/* Main */}
             <div className="container relative flex flex-col items-center justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
               <div className="grid justify-items-center">
-                <h1 className="m-20 text-xl sm:text-3xl dark:text-white text-dark">
+                <h1 className="mt-20 text-xl sm:text-3xl dark:text-white text-dark">
                   TONNY BATYA
                 </h1>
 
 
-<div className="flex items-center justify-center w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
+<div className="flex items-center justify-center w-full h-full m-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
                     src="/headshot.jpg"
                     className="overflow-hidden rounded-full"
