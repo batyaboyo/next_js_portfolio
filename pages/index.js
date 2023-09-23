@@ -485,7 +485,7 @@ export default function Home({ publications }) {
           <main className={`flex-col items-center justify-center flex h-screen`} id="home" ref={homeRef}>
             {/* Main */}
             <div className="container relative flex flex-col items-center justify-center flex-grow px-0 mx-auto md:px-20 lg:px-24 section">
-              <div className="grid justify-center items-center">
+              <div className="grid justify-items-center">
                 <h1 className="m-12 text-xl sm:text-3xl dark:text-white text-dark">
                   TONNY BATYA
                 </h1>
