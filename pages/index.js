@@ -811,7 +811,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/croudouz.png"}
                 liveLink={"https://croudouz.vercel.app/"}
-                repoLink={"https://github.com/devbxtzz/croudouz"}
+                repoLink={"https://github.com/devbatx/croudouz"}
                 stack={
                   <>
                     <Icon
@@ -891,7 +891,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/pedalcliq.png"}
                 liveLink={"https://pedalcliq.vercel.app/"}
-                repoLink={"https://github.com/devbxtzz/pedalcliq"}
+                repoLink={"https://github.com/devbatx/pedalcliq"}
                 stack={
                   <>
                     <Icon
@@ -955,7 +955,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/bodabee.png"}
                 liveLink={"https://bodabee.vercel.app"}
-                repoLink={"https://github.com/devbxtzz/bodabee_landing_page"}
+                repoLink={"https://github.com/devbatx/bodabee_landing_page"}
                 stack={
                   <>
                     <Icon
@@ -1036,25 +1036,10 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/portfolio.png"}
                 liveLink={"https://tonnybatya.netlify.app/"}
-                repoLink={"https://github.com/devbxtzz/tonny_batya"}
+                repoLink={"https://github.com/devbatx/tonny_batya"}
                 stack={
                   <>
-                    <Icon
-                      IconType={Html}
-                      title="HTML"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-
+                   
                     <Icon
                       IconType={Tailwind}
                       title="Tailwind"
@@ -1071,22 +1056,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                       fixedHeight={"h-auto"}
                     />
 
-                    <Icon
-                      IconType={ReactJs}
-                      title="React"
-                      columnSizing={"w-auto"}
-                      width={"w-6"}
-                      height={"h-6"}
-                      flexDirection={"flex-row"}
-                      padding={"p-0"}
-                      titleMargins={"my-0 ml-1"}
-                      titleSize={"text-sm"}
-                      marginBottom={"mb-4"}
-                      marginRight={"mr-3"}
-                      textTransform={"uppercase"}
-                      fixedHeight={"h-auto"}
-                    />
-
+                
                     <Icon
                       IconType={NextJs}
                       title="Next"
