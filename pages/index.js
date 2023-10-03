@@ -1135,7 +1135,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
 
             <div className="flex flex-col items-center md:flex-row">
               <p className="w-auto mb-4 md:mb-0 text-2xl">
-                &copy; {new Date().getFullYear()} - Tonny Batya A.K.A Devbxtzz
+                &copy; {new Date().getFullYear()} - Tonny Batya A.K.A Devbatx
               </p>
 
               <div className="flex md:hidden">
