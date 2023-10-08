@@ -642,21 +642,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 fixedHeight={"h-28"}
               />
 
-              {/* Express */}
-              <Icon
-                IconType={Express}
-                title="Express"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
+              
 
               {/* Solidity */}
               <Icon
@@ -674,70 +660,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 fixedHeight={"h-28"}
               />
 
-              {/* MongoDb */}
-              <Icon
-                IconType={MongoDb}
-                title="MongoDb"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Sass */}
-              <Icon
-                IconType={Sass}
-                title="Sass"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Bootstrap */}
-              <Icon
-                IconType={Bootstrap}
-                title="Bootstrap"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Typescript */}
-              <Icon
-                IconType={Typescript}
-                title="Typescript"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
+              
               {/* Vscode */}
               <Icon
                 IconType={Vscode}
