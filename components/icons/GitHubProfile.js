@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const GitHubProfile = ({ marginBottom }) => {
   return (
     <div className={`w-8 h-8 ${marginBottom}`}>
@@ -21,5 +22,6 @@ const GitHubProfile = ({ marginBottom }) => {
     </div>
   );
 };
+
 
 export default GitHubProfile;
