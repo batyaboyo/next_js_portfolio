@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import Head from "next/head";
 import Image from "next/legacy/image";
 import Link from "next/link";
-import ReactTypingEffect from "react-typing-effect";
 
 import Icon from "../components/Icon";
 // Icons
@@ -10,18 +9,11 @@ import Html from "../components/icons/Html";
 import Css from "../components/icons/Css";
 import Javascript from "../components/icons/Javascript";
 import Tailwind from "../components/icons/Tailwind";
-import Bootstrap from "../components/icons/Bootstrap";
-import Sass from "../components/icons/Sass";
 import ReactJs from "../components/icons/ReactJs";
 import NextJs from "../components/icons/NextJs";
 import NodeJs from "../components/icons/NodeJs";
-import Typescript from "../components/icons/Typescript";
-import Vscode from "../components/icons/Vscode";
-import Django from "../components/icons/Django";
 import Python from "../components/icons/Python";
 import Solidity from "../components/icons/Solidity";
-import MongoDb from "../components/icons/MongoDb";
-import Express from "../components/icons/Express";
 // Project Card
 import ProjectCard from "../components/ProjectCard";
 import GitHubProfile from "../components/icons/GitHubProfile";
