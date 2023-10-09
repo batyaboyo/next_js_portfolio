@@ -624,63 +624,12 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 marginRight={"mr-0"}
                 textTransform={"normal-case"}
                 fixedHeight={"h-28"}
-              />
-
-              {/* Node */}
-              <Icon
-                IconType={NodeJs}
-                title="Node"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              
+              />          
 
               {/* Solidity */}
               <Icon
                 IconType={Solidity}
                 title="Solidity"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              
-              {/* Vscode */}
-              <Icon
-                IconType={Vscode}
-                title="Vscode"
-                width={"w-16"}
-                height={"h-16"}
-                padding={"p-0"}
-                flexDirection={"flex-col"}
-                titleMargins={"mt-4"}
-                titleSize={"text-sm sm:text-sm"}
-                marginBottom={"mb-4"}
-                marginRight={"mr-0"}
-                textTransform={"normal-case"}
-                fixedHeight={"h-28"}
-              />
-
-              {/* Django */}
-              <Icon
-                IconType={Django}
-                title="Django"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
