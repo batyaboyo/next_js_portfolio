@@ -675,7 +675,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/croudouz.png"}
                 liveLink={"https://croudouz.vercel.app/"}
-                repoLink={"https://github.com/devbatx/croudouz"}
+                repoLink={"https://github.com/devbxtzz/croudouz"}
                 stack={
                   <>
                     <Icon
@@ -755,7 +755,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/pedalcliq.png"}
                 liveLink={"https://pedalcliq.vercel.app/"}
-                repoLink={"https://github.com/devbatx/pedalcliq"}
+                repoLink={"https://github.com/devbxtzz/pedalcliq"}
                 stack={
                   <>
                     <Icon
@@ -819,7 +819,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/bodabee.png"}
                 liveLink={"https://bodabee.vercel.app"}
-                repoLink={"https://github.com/devbatx/bodabee_landing_page"}
+                repoLink={"https://github.com/devbxtzz/bodabee_landing_page"}
                 stack={
                   <>
                     <Icon
@@ -900,7 +900,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
                 imgHeight={"666"}
                 imgSrc={"/projects/portfolio.png"}
                 liveLink={"https://tonnybatya.netlify.app/"}
-                repoLink={"https://github.com/devbatx/tonny_batya"}
+                repoLink={"https://github.com/devbxtzz/tonny_batya"}
                 stack={
                   <>
                    
@@ -999,7 +999,7 @@ Software developer and Writer. Engineering extraordinary online experiences with
 
             <div className="flex flex-col items-center md:flex-row">
               <p className="w-auto mb-4 md:mb-0 text-2xl">
-                &copy; {new Date().getFullYear()} - Tonny Batya A.K.A Devbatx
+                &copy; {new Date().getFullYear()} - Tonny Batya
               </p>
 
               <div className="flex md:hidden">
