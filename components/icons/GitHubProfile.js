@@ -5,7 +5,7 @@ const GitHubProfile = ({ marginBottom }) => {
   return (
     <div className={`w-8 h-8 ${marginBottom}`}>
       <a
-        href="https://github.com/devbatx"
+        href="https://github.com/devbxtzz"
         target="_blank"
         rel="noreferrer"
       >
